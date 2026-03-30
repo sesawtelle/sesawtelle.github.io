@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+TEST EDIT
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -222,10 +222,10 @@
 
   <section id="hero">
     <div class="hero-left">
-      <p class="hero-kicker">Portfolio — Science Communication & Environmental Design</p>
+      <p class="hero-kicker">Portfolio — Social Media & Interpretation</p>
       <h1 class="hero-title">Sarah<br>Sawtelle</h1>
       <p class="hero-tagline">Where Nature meets Narrative.</p>
-      <p class="hero-sub">Social media and interpretive signage rooted in natural history, science communication, and environmental education.</p>
+      <p class="hero-sub">Leveraging social media to connect people to places, causes, and organizations.</p>
       <a href="#work" class="hero-btn">View Work →</a>
     </div>
     <div class="hero-right">
