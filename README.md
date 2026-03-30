@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -9,35 +10,31 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      background: #f0ebe0;
-      color: #2a2318;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 300;
-      overflow-x: hidden;
+      background: #f0ebe0; color: #2a2318;
+      font-family: 'DM Sans', sans-serif; font-weight: 300; overflow-x: hidden;
     }
 
-    /* NAV */
+    /* NAV — logo only */
     nav {
       position: sticky; top: 0; z-index: 100;
-      display: flex; justify-content: space-between; align-items: center;
+      display: flex; align-items: center; justify-content: space-between;
       padding: 1.4rem 2.5rem;
       border-bottom: 2px solid #2a2318;
       background: #f0ebe0;
     }
+    .nav-links { display: flex; align-items: center; gap: 2.2rem; }
+    .nav-link {
+      font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: #2a2318; text-decoration: none; transition: color 0.2s;
+    }
+    .nav-link:hover { color: #4a6640; }
+    @media (max-width: 768px) { .nav-links { display: none; } }
     .logo {
       font-family: 'Fraunces', serif; font-size: 1.1rem;
       font-weight: 300; font-style: italic;
       color: #2a2318; text-decoration: none;
     }
-    .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a {
-      font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
-      color: #4a6640; text-decoration: none; font-weight: 400; transition: color 0.2s;
-    }
-    .nav-links a:hover { color: #2a2318; }
 
-   .nav-links li { display: flex; align-items: center; }
-   
     /* HERO */
     #hero {
       display: grid; grid-template-columns: 1fr 1fr;
@@ -53,40 +50,32 @@
       display: flex; align-items: center; gap: 0.7rem;
     }
     .hero-kicker::before {
-      content: ''; display: inline-block;
-      width: 20px; height: 2px; background: #4a6640;
+      content: ''; display: inline-block; width: 20px; height: 2px; background: #4a6640;
     }
     .hero-title {
-      font-family: 'Fraunces', serif;
-      font-size: clamp(3rem, 5vw, 4.8rem);
-      font-weight: 600; line-height: 1.0;
-      margin-bottom: 0.5rem; letter-spacing: -0.02em; color: #2a2318;
+      font-family: 'Fraunces', serif; font-size: clamp(3rem, 5vw, 4.8rem);
+      font-weight: 600; line-height: 1.0; margin-bottom: 0.5rem;
+      letter-spacing: -0.02em; color: #2a2318;
     }
     .hero-tagline {
-      font-family: 'Fraunces', serif;
-      font-size: clamp(1.1rem, 2vw, 1.5rem);
-      font-weight: 300; font-style: italic;
-      color: #2a8c2a; margin-bottom: 1.6rem;
+      font-family: 'Fraunces', serif; font-size: clamp(1.1rem, 2vw, 1.5rem);
+      font-weight: 300; font-style: italic; color: #2a8c2a; margin-bottom: 1.6rem;
     }
     .hero-sub {
-      font-size: 13px; color: #7a6e5a;
-      line-height: 1.85; max-width: 40ch; margin-bottom: 2.5rem;
+      font-size: 13px; color: #7a6e5a; line-height: 1.85; max-width: 40ch; margin-bottom: 2.5rem;
     }
     .hero-btn {
       display: inline-flex; align-items: center; gap: 0.6rem;
       font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
-      color: #f0ebe0; background: #2a2318;
-      padding: 0.8rem 2rem; text-decoration: none;
-      width: fit-content; font-weight: 400; transition: background 0.2s;
+      color: #f0ebe0; background: #2a2318; padding: 0.8rem 2rem;
+      text-decoration: none; width: fit-content; font-weight: 400; transition: background 0.2s;
     }
     .hero-btn:hover { background: #4a6640; }
     .hero-right { overflow: hidden; min-height: 480px; background: #e0d9c8; }
     .photo-label {
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center; gap: 1rem;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem;
       width: 100%; height: 100%; min-height: 480px;
-      background: #e0d9c8; cursor: pointer;
-      transition: background 0.2s; border: none;
+      background: #e0d9c8; cursor: pointer; transition: background 0.2s; border: none;
     }
     .photo-label:hover { background: #d8d0be; }
     .photo-label input[type="file"] { display: none; }
@@ -100,131 +89,103 @@
 
     /* SECTION BAR */
     .section-bar {
-      display: flex; align-items: center; gap: 1.2rem;
-      padding: 1rem 2.5rem;
-      border-top: 2px solid #2a2318; border-bottom: 1px solid #c8c0ae;
-      background: #e8e0ce;
+      display: flex; align-items: center; gap: 1.2rem; padding: 1rem 2.5rem;
+      border-top: 2px solid #2a2318; border-bottom: 1px solid #c8c0ae; background: #e8e0ce;
     }
     .section-bar-num   { font-size: 10px; letter-spacing: 0.14em; color: #4a6640; text-transform: uppercase; }
     .section-bar-title { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; }
 
-    /* ABOUT — lime green background, two columns */
+    /* ABOUT */
     #about {
-      display: grid; grid-template-columns: 2fr 1fr;
-      gap: 4rem; padding: 3.5rem 2.5rem;
-      border-bottom: 2px solid #2a2318; align-items: start;
-      background: #c8ddb8;
+      display: grid; grid-template-columns: 2fr 1fr; gap: 4rem; padding: 3.5rem 2.5rem;
+      border-bottom: 2px solid #2a2318; align-items: start; background: #c8ddb8;
     }
     .about-lead {
-      font-family: 'Fraunces', serif;
-      font-size: 1.35rem; font-weight: 300; line-height: 1.55; color: #1a2e14;
+      font-family: 'Fraunces', serif; font-size: 1.35rem; font-weight: 300;
+      line-height: 1.55; color: #1a2e14;
     }
     .about-lead em { font-style: italic; color: #1e6e1e; }
-    .about-sub {
-      margin-top: 1rem;
-      font-size: 13px; color: #3a5a30; line-height: 1.85; max-width: 52ch;
-    }
+    .about-sub { margin-top: 1rem; font-size: 13px; color: #3a5a30; line-height: 1.85; max-width: 52ch; }
     .sidebar-item { padding: 0.85rem 0; border-bottom: 1px solid #8ab87a; }
     .sidebar-item:first-child { border-top: 1px solid #8ab87a; }
-    .sidebar-key {
-      font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase;
-      color: #2a5c2a; margin-bottom: 0.25rem;
-    }
+    .sidebar-key { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #2a5c2a; margin-bottom: 0.25rem; }
     .sidebar-val { font-size: 12px; color: #1a2e14; line-height: 1.6; }
 
-    /* SKILLS — bordered squares, flood green on hover */
+    /* SKILLS */
     #skills { border-bottom: 2px solid #2a2318; }
-    .skills-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr);
-      gap: 1px; background: #2a2318;
-      border-bottom: 1px solid #2a2318;
-    }
-    .skill-card {
-      padding: 2.5rem 2rem;
-      background: #f0ebe0;
-      transition: background 0.25s, color 0.25s;
-      cursor: default;
-    }
+    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #2a2318; }
+    .skill-card { padding: 2.5rem 2rem; background: #f0ebe0; transition: background 0.25s; cursor: default; }
     .skill-card:hover { background: #3a7a30; }
-    .skill-glyph {
-      font-family: 'Fraunces', serif; font-size: 1.6rem;
-      font-style: italic; color: #4a6640;
-      margin-bottom: 0.6rem; line-height: 1;
-      transition: color 0.25s;
-    }
+    .skill-glyph { font-family: 'Fraunces', serif; font-size: 1.6rem; font-style: italic; color: #4a6640; margin-bottom: 0.6rem; line-height: 1; transition: color 0.25s; }
     .skill-card:hover .skill-glyph { color: #c8ddb8; }
-    .skill-name {
-      font-family: 'Fraunces', serif; font-size: 1.1rem;
-      font-weight: 600; color: #2a2318; margin-bottom: 0.5rem;
-      transition: color 0.25s;
-    }
+    .skill-name { font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem; transition: color 0.25s; }
     .skill-card:hover .skill-name { color: #f0ebe0; }
-    .skill-desc {
-      font-size: 12px; color: #7a6e5a; line-height: 1.65;
-      transition: color 0.25s;
-    }
+    .skill-desc { font-size: 12px; color: #7a6e5a; line-height: 1.65; transition: color 0.25s; }
     .skill-card:hover .skill-desc { color: #c8ddb8; }
 
     /* WORK */
     #work { border-bottom: 2px solid #2a2318; }
     .work-list { display: flex; flex-direction: column; }
     .work-item {
-      display: grid; grid-template-columns: auto 1fr auto;
-      align-items: center; padding: 1.4rem 2.5rem;
-      border-bottom: 1px solid #c8dab8; gap: 1.5rem;
+      display: grid; grid-template-columns: auto 1fr auto; align-items: center;
+      padding: 1.4rem 2.5rem; border-bottom: 1px solid #c8dab8; gap: 1.5rem;
       background: #f0ebe0; transition: background 0.2s;
     }
     .work-item:last-child { border-bottom: none; }
     .work-item:hover { background: #e8f0d8; }
-    .work-index {
-      font-family: 'Fraunces', serif; font-size: 1.4rem;
-      font-weight: 300; font-style: italic; color: #a8c898; min-width: 2rem; line-height: 1;
-    }
-    .work-title {
-      font-family: 'Fraunces', serif; font-size: 1.15rem;
-      font-style: italic; font-weight: 300; color: #2a2318; margin-bottom: 0.3rem;
-    }
+    .work-index { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 300; font-style: italic; color: #a8c898; min-width: 2rem; line-height: 1; }
+    .work-title { font-family: 'Fraunces', serif; font-size: 1.15rem; font-style: italic; font-weight: 300; color: #2a2318; margin-bottom: 0.3rem; }
     .work-desc { font-size: 11px; color: #7a6e5a; line-height: 1.6; max-width: 55ch; }
-    .work-tag {
-      font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase;
-      color: #f0ebe0; background: #3a7a30;
-      padding: 0.3rem 0.8rem; white-space: nowrap; align-self: start; margin-top: 0.2rem;
-    }
+    .work-tag { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #f0ebe0; background: #3a7a30; padding: 0.3rem 0.8rem; white-space: nowrap; align-self: start; margin-top: 0.2rem; }
 
     /* CONTACT */
     #contact {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: 4rem; padding: 3.5rem 2.5rem;
-      border-bottom: 2px solid #2a2318;
-      align-items: center; background: #e8e0ce;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; padding: 3.5rem 2.5rem;
+      border-bottom: 2px solid #2a2318; align-items: center; background: #e8e0ce;
     }
-    .contact-intro {
-      font-family: 'Fraunces', serif;
-      font-size: clamp(1.6rem, 2.5vw, 2.2rem);
-      font-weight: 300; line-height: 1.3; margin-bottom: 1rem; color: #2a2318;
-    }
+    .contact-intro { font-family: 'Fraunces', serif; font-size: clamp(1.6rem, 2.5vw, 2.2rem); font-weight: 300; line-height: 1.3; margin-bottom: 1rem; color: #2a2318; }
     .contact-intro em { font-style: italic; color: #2a8c2a; }
     .contact-sub { font-size: 13px; color: #7a6e5a; line-height: 1.8; }
     .contact-links { display: flex; flex-direction: column; }
-    .contact-link {
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 1.2rem 0; border-bottom: 1px solid #c8c0ae;
-      text-decoration: none; color: #2a2318; transition: color 0.2s;
-    }
+    .contact-link { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 0; border-bottom: 1px solid #c8c0ae; text-decoration: none; color: #2a2318; transition: color 0.2s; }
     .contact-link:first-child { border-top: 1px solid #c8c0ae; }
     .contact-link:hover { color: #4a6640; }
     .contact-link-label { font-size: 13px; }
-    .contact-link-type {
-      font-size: 10px; letter-spacing: 0.14em;
-      text-transform: uppercase; color: #4a6640;
+    .contact-link-type { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #4a6640; }
+
+    /* CONTACT FORM */
+    .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-field { display: flex; flex-direction: column; gap: 0.35rem; }
+    .form-field label { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #4a6640; }
+    .form-field input,
+    .form-field textarea {
+      background: #f0ebe0; border: 1px solid #c8c0ae; color: #2a2318;
+      font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 300;
+      padding: 0.75rem 1rem; outline: none; transition: border-color 0.2s; resize: none; width: 100%;
+    }
+    .form-field input:focus,
+    .form-field textarea:focus { border-color: #4a6640; }
+    .form-field input::placeholder,
+    .form-field textarea::placeholder { color: #b0a890; }
+    .form-submit {
+      display: inline-flex; align-items: center; gap: 0.6rem; justify-content: center;
+      font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+      color: #f0ebe0; background: #2a2318; padding: 0.85rem 2rem;
+      border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-weight: 400;
+      transition: background 0.2s; width: 100%;
+    }
+    .form-submit:hover { background: #4a6640; }
+    .form-success {
+      display: none; font-size: 13px; color: #2a8c2a; padding: 0.75rem 1rem;
+      border: 1px solid #8ab87a; background: #c8ddb820; text-align: center;
     }
 
     /* FOOTER */
     footer {
       border-top: 2px solid #2a2318; padding: 1.2rem 2.5rem;
       display: flex; justify-content: space-between;
-      font-size: 10px; letter-spacing: 0.1em;
-      color: #9a9080; text-transform: uppercase; background: #f0ebe0;
+      font-size: 10px; letter-spacing: 0.1em; color: #9a9080; text-transform: uppercase; background: #f0ebe0;
     }
 
     /* SCROLL REVEAL */
@@ -251,12 +212,12 @@
 
   <nav>
     <a class="logo" href="#hero">Sarah Sawtelle</a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-links">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#work">Work</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
   </nav>
 
   <section id="hero">
@@ -382,12 +343,28 @@
       <p class="contact-intro">Let's make something<br><em>worth seeing.</em></p>
       <p class="contact-sub">Whether you need social content, interpretive signage, or science communication design, I'd love to hear about your project.</p>
     </div>
-    <div class="contact-links">
-      <a href="mailto:sarah.e.sawtelle@gmail.com" class="contact-link">
-        <span class="contact-link-label">sarah.e.sawtelle@gmail.com</span>
-        <span class="contact-link-type">Email →</span>
-      </a>
-    </div>
+    <form class="contact-form" id="contact-form" onsubmit="submitForm(event)" novalidate>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" placeholder="your@email.com" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="cf-subject">Subject</label>
+        <input type="text" id="cf-subject" name="subject" placeholder="Project type or enquiry">
+      </div>
+      <div class="form-field">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+      </div>
+      <div class="form-success" id="form-success">Thank you — I'll be in touch soon.</div>
+      <button type="submit" class="form-submit">Send Message →</button>
+    </form>
   </section>
 
   <footer>
@@ -406,6 +383,28 @@
       };
       reader.readAsDataURL(file);
     }
+    function submitForm(e) {
+      e.preventDefault();
+      const form = document.getElementById('contact-form');
+      const success = document.getElementById('form-success');
+      const btn = form.querySelector('.form-submit');
+      // Basic validation
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+      // Opens default mail client with pre-filled fields
+      const name    = encodeURIComponent(document.getElementById('cf-name').value);
+      const subject = encodeURIComponent(document.getElementById('cf-subject').value || 'Portfolio Enquiry');
+      const message = encodeURIComponent('From: ' + document.getElementById('cf-name').value + '\n\n' + document.getElementById('cf-message').value);
+      window.location.href = 'mailto:sarah.e.sawtelle@gmail.com?subject=' + subject + '&body=' + message;
+      setTimeout(() => {
+        success.style.display = 'block';
+        form.reset();
+        btn.textContent = 'Send Message →';
+        btn.disabled = false;
+      }, 800);
+    }
+
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
