@@ -71,21 +71,8 @@ EDIT 3-30 3:02PM
       text-decoration: none; width: fit-content; font-weight: 400; transition: background 0.2s;
     }
     .hero-btn:hover { background: #4a6640; }
-    .hero-right { overflow: hidden; min-height: 480px; background: #e0d9c8; }
-    .photo-label {
-      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem;
-      width: 100%; height: 100%; min-height: 480px;
-      background: #e0d9c8; cursor: pointer; transition: background 0.2s; border: none;
-    }
-    .photo-label:hover { background: #d8d0be; }
-    .photo-label input[type="file"] { display: none; }
-    .photo-preview { width: 100%; height: 100%; min-height: 480px; object-fit: cover; display: block; }
-    .ph-icon {
-      width: 56px; height: 56px; border: 1.5px solid #b0a890;
-      border-radius: 50%; display: flex; align-items: center; justify-content: center;
-    }
-    .ph-label { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #9a9080; }
-    .ph-hint  { font-size: 10px; color: #b0a890; letter-spacing: 0.08em; }
+    .hero-right { overflow: hidden; min-height: 480px; }
+    .hero-photo { width: 100%; height: 100%; min-height: 480px; object-fit: cover; display: block; }
 
     /* SECTION BAR */
     .section-bar {
@@ -203,7 +190,7 @@ EDIT 3-30 3:02PM
       nav { padding: 1.2rem 1.5rem; }
       #hero { grid-template-columns: 1fr; }
       .hero-left { padding: 3.5rem 1.5rem 2.5rem; border-right: none; }
-      .hero-right, .photo-label { min-height: 300px; }
+      .hero-right, .hero-photo { min-height: 300px; }
       #about { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem 1.5rem; }
       .skills-grid { grid-template-columns: 1fr; }
       .project { padding: 2rem 1.5rem; }
@@ -236,18 +223,7 @@ EDIT 3-30 3:02PM
       <a href="#work" class="hero-btn">View Work →</a>
     </div>
     <div class="hero-right">
-      <label class="photo-label" id="photo-label">
-        <input type="file" accept="image/*" onchange="previewPhoto(event)">
-        <div class="ph-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-            <rect x="3" y="5" width="18" height="14" rx="2" stroke="#9a9080" stroke-width="1.2"/>
-            <circle cx="12" cy="12" r="3.5" stroke="#9a9080" stroke-width="1.2"/>
-            <path d="M8 5l1.5-2h5L16 5" stroke="#9a9080" stroke-width="1.2" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <span class="ph-label">Your Photo Here</span>
-        <span class="ph-hint">Click to upload</span>
-      </label>
+      <img class="hero-photo" src="hero.jpg" alt="Interior of the San Francisco Conservatory of Flowers — Giant Victoria water lily pads floating in the tropical pond">
     </div>
   </section>
 
@@ -398,16 +374,6 @@ EDIT 3-30 3:02PM
   </footer>
 
   <script>
-    function previewPhoto(event) {
-      const file = event.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        const label = document.getElementById('photo-label');
-        label.innerHTML = '<img class="photo-preview" src="' + e.target.result + '" alt="Sarah Sawtelle">';
-      };
-      reader.readAsDataURL(file);
-    }
     function submitForm(e) {
       e.preventDefault();
       const form = document.getElementById('contact-form');
