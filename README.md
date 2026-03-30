@@ -291,11 +291,11 @@ EDIT 3-30 4:08PM
       <div class="project-top">
         <span class="project-index">01</span>
         <div>
-          <span class="work-tag">Social Media</span>
+          <span class="work-tag">Instagram</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
           <h3 class="project-title">Connecting People & Plants</h3>
           <div class="project-desc-row">
-            <p class="project-desc"><b>January 2021 - December 2022.</b> I managed the Conservatory of Flowers Instagram, Facebook & YouTube accounts while serving as interim Communications Manager for two years. I brought my natural history interpretation online to share dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes reels nad stories brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I utilized the HootSuite platform to manage a content calendar and cross-posting capabilities.o</p>
+            <p class="project-desc"><b>January 2021 - December 2022.</b> I managed the San Francisco Conservatory of Flowers Instagram for two years while serving as Communications Manager. Instagram was the ideal platform to share dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes reels brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I utilized the HootSuite platform to manage a content calendar and cross-posting capabilities, and coordinated with the organizations'events, retail and operations teams to share news from across the organization with more than 60,000 followers. </p>
             <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
           </div>
         </div>
