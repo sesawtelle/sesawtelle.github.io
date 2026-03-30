@@ -36,6 +36,8 @@
     }
     .nav-links a:hover { color: #2a2318; }
 
+   .nav-links li { display: flex; align-items: center; }
+   
     /* HERO */
     #hero {
       display: grid; grid-template-columns: 1fr 1fr;
