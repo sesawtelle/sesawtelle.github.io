@@ -1,5 +1,5 @@
 # sesawtelle.github.io
-Portfolio Website -
+
 [sawtelle-portfolio.html](https://github.com/user-attachments/files/26359468/sawtelle-portfolio.html)
 <!DOCTYPE html>
 <html lang="en">
