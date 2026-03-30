@@ -125,18 +125,24 @@ EDIT 3-30 2:38PM
 
     /* WORK */
     #work { border-bottom: 2px solid #2a2318; }
-    .work-list { display: flex; flex-direction: column; }
-    .work-item {
-      display: grid; grid-template-columns: auto 1fr auto; align-items: center;
-      padding: 1.4rem 2.5rem; border-bottom: 1px solid #c8dab8; gap: 1.5rem;
-      background: #f0ebe0; transition: background 0.2s;
-    }
-    .work-item:last-child { border-bottom: none; }
-    .work-item:hover { background: #e8f0d8; }
-    .work-index { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 300; font-style: italic; color: #a8c898; min-width: 2rem; line-height: 1; }
-    .work-title { font-family: 'Fraunces', serif; font-size: 1.15rem; font-style: italic; font-weight: 300; color: #2a2318; margin-bottom: 0.3rem; }
-    .work-desc { font-size: 11px; color: #7a6e5a; line-height: 1.6; max-width: 55ch; }
-    .work-tag { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #f0ebe0; background: #3a7a30; padding: 0.3rem 0.8rem; white-space: nowrap; align-self: start; margin-top: 0.2rem; }
+    .project { padding: 2.8rem 2.5rem; border-bottom: 1px solid #c8dab8; }
+    .project:last-child { border-bottom: none; }
+    .project-top { display: grid; grid-template-columns: 3rem 1fr; gap: 1.5rem; margin-bottom: 1.8rem; align-items: start; }
+    .project-index { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 300; font-style: italic; color: #a8c898; line-height: 1; padding-top: 0.1rem; }
+    .work-tag { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #f0ebe0; background: #3a7a30; padding: 0.3rem 0.8rem; white-space: nowrap; display: inline-block; margin-bottom: 0.6rem; }
+    .project-org { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #4a6640; margin-bottom: 0.3rem; }
+    .project-title { font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.7rem; }
+    .project-desc { font-size: 12px; color: #7a6e5a; line-height: 1.78; max-width: 62ch; }
+    /* Instagram grid */
+    .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
+    .project-grid-link { display: block; overflow: hidden; aspect-ratio: 1 / 1; }
+    .project-grid-link img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.35s; }
+    .project-grid-link:hover img { transform: scale(1.04); }
+    /* YouTube layout */
+    .project-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+    .project-img-link { display: block; overflow: hidden; border: 1px solid #c8c0ae; }
+    .project-img-link img { width: 100%; display: block; transition: transform 0.35s; }
+    .project-img-link:hover img { transform: scale(1.03); }
 
     /* CONTACT */
     #contact {
@@ -200,8 +206,9 @@ EDIT 3-30 2:38PM
       .hero-right, .photo-label { min-height: 300px; }
       #about { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem 1.5rem; }
       .skills-grid { grid-template-columns: 1fr; }
-      .work-item { grid-template-columns: 2rem 1fr; padding: 1.2rem 1.5rem; }
-      .work-tag { display: none; }
+      .project { padding: 2rem 1.5rem; }
+      .project-grid { gap: 0.4rem; }
+      .project-layout { grid-template-columns: 1fr; gap: 1.5rem; }
       #contact { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem 1.5rem; }
       .section-bar { padding: 0.9rem 1.5rem; }
       footer { flex-direction: column; gap: 0.4rem; text-align: center; }
@@ -298,40 +305,58 @@ EDIT 3-30 2:38PM
     <span class="section-bar-title">Selected Work</span>
   </div>
   <section id="work" class="reveal">
-    <div class="work-list">
-      <div class="work-item">
-        <span class="work-index">01</span>
+
+    <!-- Project 01: Instagram -->
+    <div class="project">
+      <div class="project-top">
+        <span class="project-index">01</span>
         <div>
-          <div class="work-title">Nature Trail Interpretive Signs</div>
-          <div class="work-desc">Educational wayfinding series for a regional nature preserve — ecology, flora, fauna, and trail information for visitors of all ages.</div>
+          <span class="work-tag">Social Media</span>
+          <div class="project-org">San Francisco Conservatory of Flowers</div>
+          <h3 class="project-title">Instagram</h3>
+          <p class="project-desc">Instagram was an ideal tool for fulfilling the organization's mission to <em>connect people and plants in a place of exceptional beauty</em>. I crafted posts featuring dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes videos brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I fostered interaction through trivia posts that invited audiences to consider how a flower's shape may be a clue to the identity of its animal pollinator, or to guess a mystery tropical fruit.</p>
         </div>
-        <span class="work-tag">Signage</span>
       </div>
-      <div class="work-item">
-        <span class="work-index">02</span>
-        <div>
-          <div class="work-title">Conservation Nonprofit Social Campaign</div>
-          <div class="work-desc">Ongoing social media content design — event promotions, donor campaigns, and brand-consistent story templates.</div>
-        </div>
-        <span class="work-tag">Social Media</span>
-      </div>
-      <div class="work-item">
-        <span class="work-index">03</span>
-        <div>
-          <div class="work-title">Natural History Museum Exhibit Panels</div>
-          <div class="work-desc">Interpretive panels for a traveling natural history exhibit — dense scientific content made approachable through layout and visual hierarchy.</div>
-        </div>
-        <span class="work-tag">Signage</span>
-      </div>
-      <div class="work-item">
-        <span class="work-index">04</span>
-        <div>
-          <div class="work-title">Environmental Education Program Identity</div>
-          <div class="work-desc">Visual identity and social rollout for a nature-based education program — launch grid, story highlights, and weekly content templates.</div>
-        </div>
-        <span class="work-tag">Social Media</span>
+      <div class="project-grid">
+        <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/6c77f3b1-41ea-46dd-ba12-b6807887276d/Screenshot+2025-09-17+at+12.39.24%E2%80%AFPM.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/Chk3u_SDijd/?hl=en" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758211017494-FUJ0SUV9HGEZHLXDQ5K7/Screenshot%252B2025-09-18%252Bat%252B8.39.17%2525E2%252580%2525AFAM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/CcGPQgtp826/?hl=en&img_index=1" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210426850-WMN5P2XOHETDHEGPMJV1/Screenshot%2B2025-09-18%2Bat%2B8.46.24%25E2%2580%25AFAM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/CeEmW9vlS5r/?hl=en" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758211246811-XZ6XOYRC3KETKZ0N45LQ/Screenshot%252B2025-09-17%252Bat%252B12.46.15%2525E2%252580%2525AFPM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/Ci0N9EjJzFF/?hl=en" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210882585-Q2R8I1TFIB2TPID11L9D/Screenshot%2B2025-09-18%2Bat%2B8.50.25%25E2%2580%25AFAM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/CezZZv6jnNj/?hl=en" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210284067-P33HN3L7OHUKGKPLR8MQ/Screenshot%252B2025-09-17%252Bat%252B12.46.41%2525E2%252580%2525AFPM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+        </a>
       </div>
     </div>
+
+    <!-- Project 02: YouTube -->
+    <div class="project">
+      <div class="project-top">
+        <span class="project-index">02</span>
+        <div>
+          <span class="work-tag">Video</span>
+          <div class="project-org">San Francisco Conservatory of Flowers</div>
+          <h3 class="project-title">YouTube Live — Corpse Flower Bloom</h3>
+        </div>
+      </div>
+      <div class="project-layout">
+        <p class="project-desc">There is no event that brings more visitors to the garden than a bloom of the Corpse Flower. An impending bloom during a pandemic-era garden closure led me to make a quick pivot towards online programming. I envisioned and produced a series of YouTube Live programs that featured Conservatory staff and volunteers sharing the story of the Corpse Flower — its fascinating natural history and the role of botanical gardens in conservation. The bloom was even pollinated live on camera. An event that would normally bring thousands of visitors through the Conservatory's doors instead reached thousands of viewers across the world.</p>
+        <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener">
+          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" loading="lazy">
+        </a>
+      </div>
+    </div>
+
   </section>
 
   <div class="section-bar reveal">
