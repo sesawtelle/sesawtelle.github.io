@@ -211,7 +211,6 @@ EDIT 3-30 4:20PM
   <nav>
     <a class="logo" href="#hero">Sarah Sawtelle</a>
     <div class="nav-links">
-      <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#skills">Skills</a>
       <a class="nav-link" href="#work">Work</a>
       <a class="nav-link" href="#contact">Contact</a>
@@ -222,25 +221,6 @@ EDIT 3-30 4:20PM
     <div class="hero-left">
       <p class="hero-kicker">Portfolio — Social Media & Interpretation</p>
       <h1 class="hero-title">Sarah<br>Sawtelle</h1>
-      <p class="hero-tagline">Where Nature meets Narrative.</p>
-      <p class="hero-sub">Leveraging social media to connect people to places, causes, and organizations.</p>
-      <a href="#work" class="hero-btn">View Work →</a>
-    </div>
-    <div class="hero-right">
-      <img class="hero-photo" src="hero.jpg" alt="Interior of the San Francisco Conservatory of Flowers — Giant Victoria water lily pads floating in the tropical pond">
-    </div>
-  </section>
-
-  <div class="section-bar reveal">
-    <span class="section-bar-num">01 —</span>
-    <span class="section-bar-title">About</span>
-  </div>
-  <section id="about" class="reveal">
-    <div>
-      <p class="about-lead">A designer rooted in <em>natural history</em> and <em>environmental education</em> — translating the complexity of the natural world into stories people want to read.</p>
-      <p class="about-sub">Whether on a trail sign or an Instagram feed, I make science accessible, accurate, and beautiful. My work spans parks, museums, conservation nonprofits, and environmental education programs.</p>
-    </div>
-    <div>
       <div class="sidebar-item">
         <div class="sidebar-key">Location</div>
         <div class="sidebar-val">San Francisco, CA</div>
@@ -253,11 +233,15 @@ EDIT 3-30 4:20PM
         <div class="sidebar-key">Available For</div>
         <div class="sidebar-val">Freelance & Contract</div>
       </div>
+      <a href="#work" class="hero-btn">View Work →</a>
+    </div>
+    <div class="hero-right">
+      <img class="hero-photo" src="hero.jpg" alt="Interior of the San Francisco Conservatory of Flowers — Giant Victoria water lily pads floating in the tropical pond">
     </div>
   </section>
 
   <div class="section-bar reveal">
-    <span class="section-bar-num">02 —</span>
+    <span class="section-bar-num">01 —</span>
     <span class="section-bar-title">Skills & Specialisms</span>
   </div>
   <section id="skills" class="reveal">
@@ -281,7 +265,7 @@ EDIT 3-30 4:20PM
   </section>
 
   <div class="section-bar reveal">
-    <span class="section-bar-num">03 —</span>
+    <span class="section-bar-num">02 —</span>
     <span class="section-bar-title">Selected Work</span>
   </div>
   <section id="work" class="reveal">
@@ -343,7 +327,7 @@ EDIT 3-30 4:20PM
   </section>
 
   <div class="section-bar reveal">
-    <span class="section-bar-num">04 —</span>
+    <span class="section-bar-num">03 —</span>
     <span class="section-bar-title">Get in Touch</span>
   </div>
   <section id="contact" class="reveal">
