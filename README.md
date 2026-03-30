@@ -15,7 +15,9 @@
       font-weight: 300;
       overflow-x: hidden;
     }
-
+    header {
+      display: none;
+      }
     /* NAV */
     nav {
       position: sticky; top: 0; z-index: 100;
