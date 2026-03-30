@@ -1,4 +1,4 @@
-EDIT 3-30 3:15PM
+EDIT 3-30 4:08PM
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -293,9 +293,9 @@ EDIT 3-30 3:15PM
         <div>
           <span class="work-tag">Social Media</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
-          <h3 class="project-title">Instagram</h3>
+          <h3 class="project-title">Connecting People & Plants</h3>
           <div class="project-desc-row">
-            <p class="project-desc">Instagram was an ideal tool for fulfilling the organization's mission to <em>connect people and plants in a place of exceptional beauty</em>. I crafted posts featuring dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes videos brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I fostered interaction through trivia posts that invited audiences to consider how a flower's shape may be a clue to the identity of its animal pollinator, or to guess a mystery tropical fruit.</p>
+            <p class="project-desc"><b>January 2021 - December 2022.</b> I managed the Conservatory of Flowers Instagram, Facebook & YouTube accounts while serving as interim Communications Manager for two years. I brought my natural history interpretation online to share dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes reels nad stories brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I utilized the HootSuite platform to manage a content calendar and cross-posting capabilities.o</p>
             <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
           </div>
         </div>
@@ -413,3 +413,4 @@ EDIT 3-30 3:15PM
   </script>
 </body>
 </html>
+
