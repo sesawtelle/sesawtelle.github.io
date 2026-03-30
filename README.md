@@ -1,4 +1,4 @@
-EDIT 3-30 3:02PM
+EDIT 3-30 3:15PM
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -125,6 +125,9 @@ EDIT 3-30 3:02PM
     .project-grid-link { display: block; overflow: hidden; aspect-ratio: 1 / 1; }
     .project-grid-link img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.35s; }
     .project-grid-link:hover img { transform: scale(1.04); }
+    /* Instagram profile screenshot */
+    .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
+    .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
     /* YouTube layout */
     .project-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
     .project-img-link { display: block; overflow: hidden; border: 1px solid #c8c0ae; }
@@ -195,6 +198,7 @@ EDIT 3-30 3:02PM
       .skills-grid { grid-template-columns: 1fr; }
       .project { padding: 2rem 1.5rem; }
       .project-grid { gap: 0.4rem; }
+      .project-desc-row { grid-template-columns: 1fr; }
       .project-layout { grid-template-columns: 1fr; gap: 1.5rem; }
       #contact { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem 1.5rem; }
       .section-bar { padding: 0.9rem 1.5rem; }
@@ -290,7 +294,10 @@ EDIT 3-30 3:02PM
           <span class="work-tag">Social Media</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
           <h3 class="project-title">Instagram</h3>
-          <p class="project-desc">Instagram was an ideal tool for fulfilling the organization's mission to <em>connect people and plants in a place of exceptional beauty</em>. I crafted posts featuring dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes videos brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I fostered interaction through trivia posts that invited audiences to consider how a flower's shape may be a clue to the identity of its animal pollinator, or to guess a mystery tropical fruit.</p>
+          <div class="project-desc-row">
+            <p class="project-desc">Instagram was an ideal tool for fulfilling the organization's mission to <em>connect people and plants in a place of exceptional beauty</em>. I crafted posts featuring dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes videos brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I fostered interaction through trivia posts that invited audiences to consider how a flower's shape may be a clue to the identity of its animal pollinator, or to guess a mystery tropical fruit.</p>
+            <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
+          </div>
         </div>
       </div>
       <div class="project-grid">
