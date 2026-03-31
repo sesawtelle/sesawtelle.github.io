@@ -285,15 +285,15 @@ EDIT 3-30 6:23
     <!-- Project 01: Instagram -->
     <div class="project">
       <div class="project-top" style="grid-template-columns: 3rem 1fr 260px;">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 9 L21 5 L17 12 L20 16 L13.5 18 L13 23 L11 23 L10.5 18 L4 16 L7 12 L3 5 L9 9 Z" fill="#a8c898"/></svg></span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
         <div>
           <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">San Francisco Conservatory of Flowers</h2>
           <div class="project-desc">
               <b>January 2021 – December 2022 · Interim Communications Manager</b>
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-                <li>Shared dazzling photos of tropical plants alongside their botanical backstories.</li>
-                <li>Behind-the-scenes reels let viewers dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
-                <li>Used Hootsuite to create content calendar, schedule posts, and manage cross-posting on multiple platforms.</li>
+                <li>Took dazzling photos and videos of tropical plants, shared alongside their botanical backstories on Instagram, YouTube, and Facebook.</li>
+                <li>Filmed reels that took viewers behind-the-scenes to dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
+                <li>Used Hootsuite to create content calendar, schedule posts, and manage posting across multiple platforms.</li>
                 <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
               </ul>
             </div>
@@ -396,9 +396,9 @@ EDIT 3-30 6:23
     <!-- Project 02: Secrets of Golden Gate Park -->
     <div class="project">
       <div class="project-top">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 1 L15 4 L17 7 L18 10 L17 14 L16 17 L13 20 L13 23 L11 23 L11 20 L8 17 L7 14 L6 10 L7 7 L9 4 Z" fill="#a8c898"/></svg></span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
         <div>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Secrets of Golden Gate Park</h2>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Secret Golden Gate Park</h2>
           <div class="project-desc-row">
             <div class="project-desc">
               <b>February – April 2026 · Freelance Social Media Manager</b>
@@ -442,22 +442,22 @@ EDIT 3-30 6:23
         </div>
       </div>
       <div class="project-grid">
-        <a class="project-grid-link" href="https://www.instagram.com/p/DUrFiGMkleZ/?img_index=2" target="_blank" rel="noopener">
+        <div class="project-grid-link">
           <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
-        </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DViE1OFFLs1/?img_index=1" target="_blank" rel="noopener">
+        </div>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVUCEhYFP6a/?img_index=1" target="_blank" rel="noopener">
           <img src="images/ggp-02.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DVUCEhYFP6a/?img_index=1" target="_blank" rel="noopener">
+        <a class="project-grid-link" href="https://www.instagram.com/stories/highlights/18434294539112364/" target="_blank" rel="noopener">
           <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: center 30%;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
           <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
         </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DVCzSMBFLF2/" target="_blank" rel="noopener">
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
           <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVXs45vjTk7/" target="_blank" rel="noopener">
           <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
       </div>
@@ -466,7 +466,7 @@ EDIT 3-30 6:23
     <!-- Project 03: YouTube -->
     <div class="project">
       <div class="project-top">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 1 L15 4 L17 7 L18 10 L17 14 L16 17 L13 20 L13 23 L11 23 L11 20 L8 17 L7 14 L6 10 L7 7 L9 4 Z" fill="#a8c898"/></svg></span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
         <div>
           <span class="work-tag">Video</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
