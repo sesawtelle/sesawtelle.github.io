@@ -1,4 +1,4 @@
-EDIT 3-30 5:55
+EDIT 3-30 6:23
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -189,6 +189,9 @@ EDIT 3-30 5:55
       border: 1px solid #8ab87a; background: #c8ddb820; text-align: center;
     }
 
+    /* SITE WRAPPER */
+    .site-wrap { max-width: 1140px; margin: 0 auto; }
+
     /* FOOTER */
     footer {
       border-top: 2px solid #2a2318; padding: 1.2rem 2.5rem;
@@ -220,6 +223,7 @@ EDIT 3-30 5:55
 </head>
 <body>
 
+<div class="site-wrap">
   <nav>
     <a class="logo" href="#hero"></a>
     <div class="nav-links">
@@ -442,6 +446,7 @@ EDIT 3-30 5:55
     <span>© 2026 Sarah Sawtelle</span>
     <span>Natural History · Science Communication · Environmental Design</span>
   </footer>
+</div>
 
   <script>
     function submitForm(e) {
