@@ -1,4 +1,4 @@
-EDIT 3-30 5:55
+EDIT 3-30 3:15PM
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -96,7 +96,7 @@ EDIT 3-30 5:55
     .sidebar-item { padding: 0.85rem 0; border-bottom: 1px solid #8ab87a; }
     .sidebar-item:first-child { border-top: 1px solid #8ab87a; }
     .sidebar-key { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #2a5c2a; margin-bottom: 0.25rem; }
-    .sidebar-val { font-size: 14px; color: #1a2e14; line-height: 1.6; }
+    .sidebar-val { font-size: 12px; color: #1a2e14; line-height: 1.6; }
 
     /* SKILLS */
     #skills { border-bottom: 2px solid #2a2318; }
@@ -119,7 +119,7 @@ EDIT 3-30 5:55
     .work-tag { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #f0ebe0; background: #3a7a30; padding: 0.3rem 0.8rem; white-space: nowrap; display: inline-block; margin-bottom: 0.6rem; }
     .project-org { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #4a6640; margin-bottom: 0.3rem; }
     .project-title { font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.7rem; }
-    .project-desc { font-size: 14px; color: #7a6e5a; line-height: 1.78; }
+    .project-desc { font-size: 12px; color: #7a6e5a; line-height: 1.78; max-width: 62ch; }
     /* Instagram grid */
     .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
     .project-grid-link { display: block; overflow: hidden; aspect-ratio: 1 / 1; }
@@ -128,18 +128,6 @@ EDIT 3-30 5:55
     /* Instagram profile screenshot */
     .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
-    /* Social profile cards */
-    .social-cards { display: flex; flex-direction: column; gap: 0.75rem; }
-    .ig-profile-card { border: 1px solid #c8c0ae; padding: 1.1rem 1.3rem; background: #f0ebe0; }
-    .ig-profile-header { display: flex; align-items: center; gap: 0.85rem; padding-bottom: 0.85rem; border-bottom: 1px solid #c8c0ae; margin-bottom: 0.75rem; }
-    .ig-avatar { width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .ig-handle { font-size: 11px; font-weight: 400; letter-spacing: 0.06em; color: #2a2318; margin-bottom: 0.25rem; }
-    .ig-platform { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #7a6e5a; }
-    .ig-stats { display: flex; justify-content: space-around; text-align: center; }
-    .ig-stat { padding: 0.4rem 0.75rem; border-right: 1px solid #c8c0ae; flex: 1; }
-    .ig-stat:last-child { border-right: none; }
-    .ig-stat-num { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; display: block; line-height: 1.2; }
-    .ig-stat-label { font-size: 8.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #7a6e5a; display: block; margin-top: 0.15rem; }
     /* YouTube layout */
     .project-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
     .project-img-link { display: block; overflow: hidden; border: 1px solid #c8c0ae; }
@@ -221,8 +209,9 @@ EDIT 3-30 5:55
 <body>
 
   <nav>
-    <a class="logo" href="#hero"></a>
+    <a class="logo" href="#hero">Sarah Sawtelle</a>
     <div class="nav-links">
+      <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#skills">Skills</a>
       <a class="nav-link" href="#work">Work</a>
       <a class="nav-link" href="#contact">Contact</a>
@@ -231,47 +220,68 @@ EDIT 3-30 5:55
 
   <section id="hero">
     <div class="hero-left">
-      <p class="hero-kicker">Portfolio — Social Media & Science Interpretation</p>
-      <h1 class="hero-title">Sarah Sawtelle</h1>
-      <div class="sidebar-item">
-        <div class="sidebar-key">Location</div>
-        <div class="sidebar-val">San Francisco, CA</div>
-      </div>
-      <div class="sidebar-item">
-        <div class="sidebar-key">Specialties</div>
-        <div class="sidebar-val">Social Media Content Creation & Management<br>Interpretive Sign Creation<br>Educational Program Development<br>Volunteer Management</div>
-      </div>
-      <div class="sidebar-item">
-        <div class="sidebar-key">Available For</div>
-        <div class="sidebar-val">Freelance & Contract</div>
-      </div>
+      <p class="hero-kicker">Portfolio — Social Media & Interpretation</p>
+      <h1 class="hero-title">Sarah<br>Sawtelle</h1>
+      <p class="hero-tagline">Where Nature meets Narrative.</p>
+      <p class="hero-sub">Leveraging social media to connect people to places, causes, and organizations.</p>
+      <a href="#work" class="hero-btn">View Work →</a>
     </div>
     <div class="hero-right">
       <img class="hero-photo" src="hero.jpg" alt="Interior of the San Francisco Conservatory of Flowers — Giant Victoria water lily pads floating in the tropical pond">
     </div>
   </section>
 
-  <section id="skills" class="reveal">
-    <div class="skills-grid">
-      <div class="skill-card">
-        <div class="skill-glyph">◈</div>
-        <div class="skill-name">Social Media</div>
-        <div class="skill-desc">Visual storytelling across Instagram, Facebook, YouTube, and more. Original photography, video, design, and writing to share your organization's story.</div>
+  <div class="section-bar reveal">
+    <span class="section-bar-num">01 —</span>
+    <span class="section-bar-title">About</span>
+  </div>
+  <section id="about" class="reveal">
+    <div>
+      <p class="about-lead">A designer rooted in <em>natural history</em> and <em>environmental education</em> — translating the complexity of the natural world into stories people want to read.</p>
+      <p class="about-sub">Whether on a trail sign or an Instagram feed, I make science accessible, accurate, and beautiful. My work spans parks, museums, conservation nonprofits, and environmental education programs.</p>
+    </div>
+    <div>
+      <div class="sidebar-item">
+        <div class="sidebar-key">Location</div>
+        <div class="sidebar-val">San Francisco, CA</div>
       </div>
-      <div class="skill-card">
-        <div class="skill-glyph">◉</div>
-        <div class="skill-name">Interpretive Sign Design</div>
-        <div class="skill-desc">Educational signs for museums, parks, and gardens.</div>
+      <div class="sidebar-item">
+        <div class="sidebar-key">Specialties</div>
+        <div class="sidebar-val">Social Media Design<br>Science Communication<br>Interpretive Sign Design<br>Natural History Program Development</div>
       </div>
-      <div class="skill-card">
-        <div class="skill-glyph">◎</div>
-        <div class="skill-name">Science Storytelling</div>
-        <div class="skill-desc">Translating natural history and ecology into engaging programs for broad audiences.</div>
+      <div class="sidebar-item">
+        <div class="sidebar-key">Available For</div>
+        <div class="sidebar-val">Freelance & Contract</div>
       </div>
     </div>
   </section>
 
   <div class="section-bar reveal">
+    <span class="section-bar-num">02 —</span>
+    <span class="section-bar-title">Skills & Specialisms</span>
+  </div>
+  <section id="skills" class="reveal">
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-glyph">◈</div>
+        <div class="skill-name">Social Media Design</div>
+        <div class="skill-desc">Feed graphics, stories, reels covers, and campaign assets for Instagram, Facebook, LinkedIn, and more.</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-glyph">◉</div>
+        <div class="skill-name">Interpretive Sign Design</div>
+        <div class="skill-desc">Educational and wayfinding signs for parks, trails, and museums — designed for clarity and durability.</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-glyph">◎</div>
+        <div class="skill-name">Science Storytelling</div>
+        <div class="skill-desc">Translating natural history and ecology into engaging, accurate visual narratives for broad audiences.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-bar reveal">
+    <span class="section-bar-num">03 —</span>
     <span class="section-bar-title">Selected Work</span>
   </div>
   <section id="work" class="reveal">
@@ -281,86 +291,12 @@ EDIT 3-30 5:55
       <div class="project-top">
         <span class="project-index">01</span>
         <div>
-          <span class="work-tag">Instagram</span>
-          <span class="work-tag" style="background: #2a5c28;">Facebook</span>
-          <span class="work-tag" style="background: #5a9a4a;">Youtube</span>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: 0.6rem; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
+          <span class="work-tag">Social Media</span>
+          <div class="project-org">San Francisco Conservatory of Flowers</div>
+          <h3 class="project-title">Instagram</h3>
           <div class="project-desc-row">
-            <div class="project-desc">
-              <b>January 2021 – December 2022 · Interim Communications Manager</b>
-              <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-                <li>Shared dazzling photos of tropical plants alongside their botanical backstories.</li>
-                <li>Behind-the-scenes reels let viewers dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
-                <li>Used Hootsuite to create content calendar, schedule posts, and manage cross-posting on multiple platforms.</li>
-                <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
-              </ul>
-            </div>
-            <div class="social-cards">
-              <!-- Instagram -->
-              <div class="ig-profile-card">
-                <div class="ig-profile-header">
-                  <div class="ig-avatar">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
-                      <defs>
-                        <radialGradient id="ig-g" cx="30%" cy="107%" r="150%">
-                          <stop offset="0%" stop-color="#fdf497"/>
-                          <stop offset="45%" stop-color="#fd5949"/>
-                          <stop offset="60%" stop-color="#d6249f"/>
-                          <stop offset="90%" stop-color="#285AEB"/>
-                        </radialGradient>
-                      </defs>
-                      <rect width="24" height="24" rx="5.5" fill="url(#ig-g)"/>
-                      <circle cx="12" cy="12" r="4.5" fill="none" stroke="#fff" stroke-width="1.8"/>
-                      <circle cx="17.5" cy="6.5" r="1.1" fill="#fff"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <div class="ig-handle">@conservatoryofflowers</div>
-                    <div class="ig-platform">Instagram</div>
-                  </div>
-                </div>
-                <div class="ig-stats">
-                  <div class="ig-stat"><span class="ig-stat-num">660</span><span class="ig-stat-label">Posts</span></div>
-                  <div class="ig-stat"><span class="ig-stat-num">66.8K</span><span class="ig-stat-label">Followers</span></div>
-                </div>
-              </div>
-              <!-- YouTube -->
-              <div class="ig-profile-card">
-                <div class="ig-profile-header">
-                  <div class="ig-avatar">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
-                      <rect width="24" height="24" rx="5" fill="#FF0000"/>
-                      <polygon points="10,7.5 10,16.5 18,12" fill="#fff"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <div class="ig-handle">Conservatory of Flowers</div>
-                    <div class="ig-platform">YouTube</div>
-                  </div>
-                </div>
-                <div class="ig-stats">
-                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Subscribers</span></div>
-                </div>
-              </div>
-              <!-- Facebook -->
-              <div class="ig-profile-card">
-                <div class="ig-profile-header">
-                  <div class="ig-avatar">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
-                      <rect width="24" height="24" rx="5" fill="#1877F2"/>
-                      <path d="M13.5 8H15V5.5h-1.5C11.57 5.5 10 7.07 10 9v1.5H8V13h2v8h3v-8h2l.5-2.5H13V9c0-.28.22-.5.5-.5z" fill="#fff"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <div class="ig-handle">@conservatoryofflowers</div>
-                    <div class="ig-platform">Facebook</div>
-                  </div>
-                </div>
-                <div class="ig-stats">
-                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Followers</span></div>
-                </div>
-              </div>
-            </div>
+            <p class="project-desc">Instagram was an ideal tool for fulfilling the organization's mission to <em>connect people and plants in a place of exceptional beauty</em>. I crafted posts featuring dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes videos brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I fostered interaction through trivia posts that invited audiences to consider how a flower's shape may be a clue to the identity of its animal pollinator, or to guess a mystery tropical fruit.</p>
+            <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
           </div>
         </div>
       </div>
@@ -407,6 +343,7 @@ EDIT 3-30 5:55
   </section>
 
   <div class="section-bar reveal">
+    <span class="section-bar-num">04 —</span>
     <span class="section-bar-title">Get in Touch</span>
   </div>
   <section id="contact" class="reveal">
@@ -476,4 +413,3 @@ EDIT 3-30 5:55
   </script>
 </body>
 </html>
-
