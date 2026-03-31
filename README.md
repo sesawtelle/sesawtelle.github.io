@@ -393,7 +393,78 @@ EDIT 3-30 6:23
       </div>
     </div>
 
-    <!-- Project 02: YouTube -->
+    <!-- Project 02: Secrets of Golden Gate Park -->
+    <div class="project">
+      <div class="project-top">
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 7 L21 5 L17 10 L22 12 L16 15 L18 19 L13 17 L13 23 L11 23 L11 17 L6 19 L8 15 L2 12 L7 10 L3 5 L9 7 Z" fill="#a8c898"/></svg></span>
+        <div>
+          <span class="work-tag">Instagram</span>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Secrets of Golden Gate Park</h2>
+          <div class="project-desc-row">
+            <div class="project-desc">
+              <b>February – April 2026 · Freelance Social Media Manager</b>
+              <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
+                <li>Created and posted Instagram reels, stories and posts in support of the release of <em>Golden Gate Park: A Local's Guide</em> and related book events.</li>
+                <li>Collaborated to develop brand style for a client with a preference for bold, eye-popping and text-intensive posts.</li>
+                <li>Integrated @secretgoldengatepark Instagram with Canva, Metricool and Linktree.</li>
+              </ul>
+            </div>
+            <div class="social-cards">
+              <a class="ig-card-link" href="https://www.instagram.com/secretgoldengatepark/" target="_blank" rel="noopener">
+              <div class="ig-profile-card">
+                <div class="ig-profile-header">
+                  <div class="ig-avatar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <defs>
+                        <radialGradient id="ig-g2" cx="30%" cy="107%" r="150%">
+                          <stop offset="0%" stop-color="#fdf497"/>
+                          <stop offset="45%" stop-color="#fd5949"/>
+                          <stop offset="60%" stop-color="#d6249f"/>
+                          <stop offset="90%" stop-color="#285AEB"/>
+                        </radialGradient>
+                      </defs>
+                      <rect width="24" height="24" rx="5.5" fill="url(#ig-g2)"/>
+                      <circle cx="12" cy="12" r="4.5" fill="none" stroke="#fff" stroke-width="1.8"/>
+                      <circle cx="17.5" cy="6.5" r="1.1" fill="#fff"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="ig-handle">@secretgoldengatepark</div>
+                    <div class="ig-platform">Instagram</div>
+                  </div>
+                </div>
+                <div class="ig-stats">
+                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Followers</span></div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-grid">
+        <a class="project-grid-link" href="https://www.instagram.com/p/DUrFiGMkleZ/?img_index=2" target="_blank" rel="noopener">
+          <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DViE1OFFLs1/?img_index=1" target="_blank" rel="noopener">
+          <img src="images/ggp-02.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVUCEhYFP6a/?img_index=1" target="_blank" rel="noopener">
+          <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
+          <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVCzSMBFLF2/" target="_blank" rel="noopener">
+          <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
+          <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 03: YouTube -->
     <div class="project">
       <div class="project-top">
         <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M17 8C8 10 5.9 16.17 3.82 21.5L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2" fill="#a8c898"/></svg></span>
