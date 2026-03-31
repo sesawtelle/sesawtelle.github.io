@@ -278,20 +278,35 @@ EDIT 3-30 5:10PM
           <span class="work-tag">Instagram</span>
           <span class="work-tag" style="background: #2a5c28;">Facebook</span>
           <span class="work-tag" style="background: #5a9a4a;">Youtube</span>
-          <div class="project-org">San Francisco Conservatory of Flowers</div>
-          <h3 class="project-title">Connecting People & Plants</h3>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: 0.6rem; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
           <div class="project-desc-row">
             <div class="project-desc">
-              <b>January 2021 – December 2022</b>
+              <b>January 2021 – December 2022 · Interim Communications Manager</b>
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-                <li>Managed the San Francisco Conservatory of Flowers Instagram for two years while serving as Communications Manager.</li>
-                <li>Shared dazzling photos of tropical plants alongside their remarkable botanical backstories.</li>
-                <li>Behind-the-scenes reels brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower.</li>
-                <li>Utilized the HootSuite platform to manage a content calendar and cross-posting capabilities.</li>
+                <li>Shared dazzling photos of tropical plants alongside their botanical backstories.</li>
+                <li>Behind-the-scenes reels let viewers dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
+                <li>Used Hootsuite to create content calendar, schedule posts, and manage cross-posting on multiple platforms.</li>
                 <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
               </ul>
             </div>
-            <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
+            <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" style="flex-shrink: 0; margin-top: 4px;" aria-label="Instagram">
+                <defs>
+                  <radialGradient id="ig-grad" cx="30%" cy="107%" r="150%">
+                    <stop offset="0%" stop-color="#fdf497"/>
+                    <stop offset="5%" stop-color="#fdf497"/>
+                    <stop offset="45%" stop-color="#fd5949"/>
+                    <stop offset="60%" stop-color="#d6249f"/>
+                    <stop offset="90%" stop-color="#285AEB"/>
+                  </radialGradient>
+                </defs>
+                <rect width="24" height="24" rx="5.5" fill="url(#ig-grad)"/>
+                <circle cx="12" cy="12" r="4.5" fill="none" stroke="#fff" stroke-width="1.8"/>
+                <circle cx="17.5" cy="6.5" r="1.1" fill="#fff"/>
+                <rect x="2.5" y="2.5" width="19" height="19" rx="4.5" fill="none" stroke="#fff" stroke-width="1.5"/>
+              </svg>
+              <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
+            </div>
           </div>
         </div>
       </div>
