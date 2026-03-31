@@ -237,15 +237,15 @@
 
   <section id="hero">
     <div class="hero-left">
-      <p style="font-family: 'Fraunces', serif; font-size: 2.2rem; font-weight: 600; color: #2a2318; margin-bottom: 1rem; letter-spacing: -0.01em;">Portfolio</p>
-      <h1 class="hero-title">Sarah Sawtelle</h1>
+      <p style="font-family: 'Fraunces', serif; font-size: 2.2rem; font-weight: 600; color: #4a6640; margin-bottom: 1rem; letter-spacing: -0.01em;">Portfolio</p>
+      <h1 class="hero-title" style="color: #7a4a1a;">Sarah Sawtelle</h1>
       <div class="sidebar-item">
         <div class="sidebar-key">Location</div>
         <div class="sidebar-val">San Francisco, CA</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">About Me</div>
-        <div class="sidebar-val">Non-profit professional supporting conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond — with a focus on social media strategy, interpretive design, and science communication.</div>
+        <div class="sidebar-val">Non-profit professional supporting conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. I can help craft and share your story through eye-catching social media posts, compelling interpretive signs, or lively educational programs.</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Available For</div>
@@ -481,6 +481,42 @@
       </div>
     </div>
 
+  </section>
+
+  <div class="section-bar reveal">
+    <span class="section-bar-title">Interpretive Sign Development</span>
+  </div>
+
+  <section id="signs" class="reveal">
+    <div class="project">
+      <div class="project-top">
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
+        <div>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Gardens of Golden Gate Park &amp; Conservatory of Flowers</h2>
+          <p class="project-desc"><b>2019 – 2024 · Interpretation and Engagement Manager</b></p>
+        </div>
+      </div>
+      <div class="project-grid">
+        <div class="project-grid-link">
+          <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/sign-02.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/sign-04.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/sign-05.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/sign-06.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        </div>
+      </div>
+    </div>
   </section>
 
   <div class="section-bar reveal">
