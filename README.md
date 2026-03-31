@@ -1,4 +1,4 @@
-EDIT 3-30 6:23
+
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -237,7 +237,7 @@ EDIT 3-30 6:23
 
   <section id="hero">
     <div class="hero-left">
-      <p class="hero-kicker" style="font-size: 13px; letter-spacing: 0.22em;">Portfolio</p>
+      <p style="font-family: 'Fraunces', serif; font-size: 2.2rem; font-weight: 600; color: #2a2318; margin-bottom: 1rem; letter-spacing: -0.01em;">Portfolio</p>
       <h1 class="hero-title">Sarah Sawtelle</h1>
       <div class="sidebar-item">
         <div class="sidebar-key">Location</div>
