@@ -227,7 +227,7 @@ EDIT 3-30 4:20PM
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Specialties</div>
-        <div class="sidebar-val">Social Media Design<br>Science Communication<br>Interpretive Sign Design<br>Natural History Program Development</div>
+        <div class="sidebar-val">Social Media Content Creation & Management<br>Interpretive Sign Creation<br>Educational Program Development<br>Volunteer Management</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Available For</div>
@@ -248,18 +248,18 @@ EDIT 3-30 4:20PM
     <div class="skills-grid">
       <div class="skill-card">
         <div class="skill-glyph">◈</div>
-        <div class="skill-name">Social Media Design</div>
-        <div class="skill-desc">Feed graphics, stories, reels covers, and campaign assets for Instagram, Facebook, LinkedIn, and more.</div>
+        <div class="skill-name">Social Media</div>
+        <div class="skill-desc">Visual storytelling across Instagram, Facebook, YouTube, and more. Original photography, video, design, and writing to share your organization's story.</div>
       </div>
       <div class="skill-card">
         <div class="skill-glyph">◉</div>
         <div class="skill-name">Interpretive Sign Design</div>
-        <div class="skill-desc">Educational and wayfinding signs for parks, trails, and museums — designed for clarity and durability.</div>
+        <div class="skill-desc">Educational signs for museums, parks, and gardens.</div>
       </div>
       <div class="skill-card">
         <div class="skill-glyph">◎</div>
         <div class="skill-name">Science Storytelling</div>
-        <div class="skill-desc">Translating natural history and ecology into engaging, accurate visual narratives for broad audiences.</div>
+        <div class="skill-desc">Translating natural history and ecology into engaging programs for broad audiences.</div>
       </div>
     </div>
   </section>
@@ -276,10 +276,21 @@ EDIT 3-30 4:20PM
         <span class="project-index">01</span>
         <div>
           <span class="work-tag">Instagram</span>
+          <span class="work-tag" style="background: #2a5c28;">Facebook</span>
+          <span class="work-tag" style="background: #5a9a4a;">Youtube</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
           <h3 class="project-title">Connecting People & Plants</h3>
           <div class="project-desc-row">
-            <p class="project-desc"><b>January 2021 - December 2022.</b> I managed the San Francisco Conservatory of Flowers Instagram for two years while serving as Communications Manager. Instagram was the ideal platform to share dazzling photos of tropical plants alongside their remarkable botanical backstories. Behind-the-scenes reels brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower. I utilized the HootSuite platform to manage a content calendar and cross-posting capabilities, and coordinated with the organizations'events, retail and operations teams to share news from across the organization with more than 60,000 followers. </p>
+            <div class="project-desc">
+              <b>January 2021 – December 2022</b>
+              <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
+                <li>Managed the San Francisco Conservatory of Flowers Instagram for two years while serving as Communications Manager.</li>
+                <li>Shared dazzling photos of tropical plants alongside their remarkable botanical backstories.</li>
+                <li>Behind-the-scenes reels brought viewers underwater to see the undersides of iconic Giant Water Lilies, and the ephemeral night bloom of a cactus flower.</li>
+                <li>Utilized the HootSuite platform to manage a content calendar and cross-posting capabilities.</li>
+                <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
+              </ul>
+            </div>
             <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
           </div>
         </div>
