@@ -129,17 +129,19 @@ EDIT 3-30 6:23
     .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
     /* Social profile cards */
-    .social-cards { display: flex; flex-direction: column; gap: 0.75rem; }
-    .ig-profile-card { border: 1px solid #c8c0ae; padding: 1.1rem 1.3rem; background: #f0ebe0; }
-    .ig-profile-header { display: flex; align-items: center; gap: 0.85rem; padding-bottom: 0.85rem; border-bottom: 1px solid #c8c0ae; margin-bottom: 0.75rem; }
-    .ig-avatar { width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .ig-handle { font-size: 11px; font-weight: 400; letter-spacing: 0.06em; color: #2a2318; margin-bottom: 0.25rem; }
-    .ig-platform { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #7a6e5a; }
+    .social-cards { display: flex; flex-direction: column; gap: 0.35rem; }
+    .ig-card-link { display: block; text-decoration: none; }
+    .ig-card-link:hover .ig-profile-card { border-color: #4a6640; }
+    .ig-profile-card { border: 1px solid #c8c0ae; padding: 0.55rem 0.8rem; background: #f0ebe0; transition: border-color 0.2s; }
+    .ig-profile-header { display: flex; align-items: center; gap: 0.6rem; padding-bottom: 0.4rem; border-bottom: 1px solid #c8c0ae; margin-bottom: 0.35rem; }
+    .ig-avatar { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .ig-handle { font-size: 10px; font-weight: 400; letter-spacing: 0.06em; color: #2a2318; margin-bottom: 0.15rem; }
+    .ig-platform { font-size: 8px; letter-spacing: 0.14em; text-transform: uppercase; color: #7a6e5a; }
     .ig-stats { display: flex; justify-content: space-around; text-align: center; }
-    .ig-stat { padding: 0.4rem 0.75rem; border-right: 1px solid #c8c0ae; flex: 1; }
+    .ig-stat { padding: 0.15rem 0.5rem; border-right: 1px solid #c8c0ae; flex: 1; }
     .ig-stat:last-child { border-right: none; }
-    .ig-stat-num { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; display: block; line-height: 1.2; }
-    .ig-stat-label { font-size: 8.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #7a6e5a; display: block; margin-top: 0.15rem; }
+    .ig-stat-num { font-family: 'Fraunces', serif; font-size: 0.88rem; font-weight: 600; color: #2a2318; display: block; line-height: 1.2; }
+    .ig-stat-label { font-size: 7.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #7a6e5a; display: block; margin-top: 0.1rem; }
     /* YouTube layout */
     .project-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
     .project-img-link { display: block; overflow: hidden; border: 1px solid #c8c0ae; }
@@ -299,10 +301,11 @@ EDIT 3-30 6:23
           </div>
             <div class="social-cards">
               <!-- Instagram -->
+              <a class="ig-card-link" href="https://www.instagram.com/conservatoryofflowers/" target="_blank" rel="noopener">
               <div class="ig-profile-card">
                 <div class="ig-profile-header">
                   <div class="ig-avatar">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                       <defs>
                         <radialGradient id="ig-g" cx="30%" cy="107%" r="150%">
                           <stop offset="0%" stop-color="#fdf497"/>
@@ -323,14 +326,16 @@ EDIT 3-30 6:23
                 </div>
                 <div class="ig-stats">
                   <div class="ig-stat"><span class="ig-stat-num">660</span><span class="ig-stat-label">Posts</span></div>
-                  <div class="ig-stat"><span class="ig-stat-num">66.8K</span><span class="ig-stat-label">Followers</span></div>
+                  <div class="ig-stat"><span class="ig-stat-num">67K</span><span class="ig-stat-label">Followers</span></div>
                 </div>
               </div>
+              </a>
               <!-- YouTube -->
+              <a class="ig-card-link" href="https://www.youtube.com/@ConservatoryofFlowers" target="_blank" rel="noopener">
               <div class="ig-profile-card">
                 <div class="ig-profile-header">
                   <div class="ig-avatar">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                       <rect width="24" height="24" rx="5" fill="#FF0000"/>
                       <polygon points="10,7.5 10,16.5 18,12" fill="#fff"/>
                     </svg>
@@ -344,11 +349,13 @@ EDIT 3-30 6:23
                   <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Subscribers</span></div>
                 </div>
               </div>
+              </a>
               <!-- Facebook -->
+              <a class="ig-card-link" href="https://www.facebook.com/ConservatoryofFlowers" target="_blank" rel="noopener">
               <div class="ig-profile-card">
                 <div class="ig-profile-header">
                   <div class="ig-avatar">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                       <rect width="24" height="24" rx="5" fill="#1877F2"/>
                       <path d="M13.5 8H15V5.5h-1.5C11.57 5.5 10 7.07 10 9v1.5H8V13h2v8h3v-8h2l.5-2.5H13V9c0-.28.22-.5.5-.5z" fill="#fff"/>
                     </svg>
@@ -362,6 +369,7 @@ EDIT 3-30 6:23
                   <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Followers</span></div>
                 </div>
               </div>
+              </a>
             </div>
         </div>
       </div>
