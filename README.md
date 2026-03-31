@@ -346,7 +346,7 @@ EDIT 3-30 6:23
                   </div>
                 </div>
                 <div class="ig-stats">
-                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Subscribers</span></div>
+                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">1K</span><span class="ig-stat-label">Subscribers</span></div>
                 </div>
               </div>
               </a>
@@ -366,7 +366,7 @@ EDIT 3-30 6:23
                   </div>
                 </div>
                 <div class="ig-stats">
-                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Followers</span></div>
+                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">23K</span><span class="ig-stat-label">Followers</span></div>
                 </div>
               </div>
               </a>
