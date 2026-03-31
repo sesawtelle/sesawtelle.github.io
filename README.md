@@ -283,14 +283,11 @@ EDIT 3-30 6:23
     <!-- Project 01: Instagram -->
     <div class="project">
       <div class="project-top">
-        <span class="project-index">01</span>
-        <div>
-          <span class="work-tag">Instagram</span>
-          <span class="work-tag" style="background: #2a5c28;">Facebook</span>
-          <span class="work-tag" style="background: #5a9a4a;">Youtube</span>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: 0.6rem; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
-          <div class="project-desc-row">
-            <div class="project-desc">
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M17 8C8 10 5.9 16.17 3.82 21.5L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2" fill="#a8c898"/></svg></span>
+        <div style="display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start;">
+          <div>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
+          <div class="project-desc">
               <b>January 2021 – December 2022 · Interim Communications Manager</b>
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
                 <li>Shared dazzling photos of tropical plants alongside their botanical backstories.</li>
@@ -299,6 +296,7 @@ EDIT 3-30 6:23
                 <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
               </ul>
             </div>
+          </div>
             <div class="social-cards">
               <!-- Instagram -->
               <div class="ig-profile-card">
@@ -365,7 +363,6 @@ EDIT 3-30 6:23
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
       <div class="project-grid">
@@ -393,7 +390,7 @@ EDIT 3-30 6:23
     <!-- Project 02: YouTube -->
     <div class="project">
       <div class="project-top">
-        <span class="project-index">02</span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M17 8C8 10 5.9 16.17 3.82 21.5L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2" fill="#a8c898"/></svg></span>
         <div>
           <span class="work-tag">Video</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
