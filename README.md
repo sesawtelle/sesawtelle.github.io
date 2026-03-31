@@ -259,26 +259,32 @@
 
   <section id="skills" class="reveal">
     <div class="skills-grid">
+      <a href="#work" style="text-decoration: none; color: inherit; display: contents;">
       <div class="skill-card">
         <div class="skill-glyph">◈</div>
         <div class="skill-name">Social Media</div>
         <div class="skill-desc">Visual storytelling across Instagram, Facebook, YouTube, and more. Original photography, video, design, and writing to share your organization's story.</div>
       </div>
+      </a>
+      <a href="#signs" style="text-decoration: none; color: inherit; display: contents;">
       <div class="skill-card">
         <div class="skill-glyph">◉</div>
-        <div class="skill-name">Interpretive Sign Design</div>
+        <div class="skill-name">Interpretive Sign Development</div>
         <div class="skill-desc">Educational signs for museums, parks, and gardens.</div>
       </div>
+      </a>
+      <a href="#storytelling" style="text-decoration: none; color: inherit; display: contents;">
       <div class="skill-card">
         <div class="skill-glyph">◎</div>
         <div class="skill-name">Science Storytelling</div>
         <div class="skill-desc">Translating natural history and ecology into engaging programs for broad audiences.</div>
       </div>
+      </a>
     </div>
   </section>
 
   <div class="section-bar reveal">
-    <span class="section-bar-title">Selected Work</span>
+    <span class="section-bar-title">Social Media</span>
   </div>
   <section id="work" class="reveal">
 
@@ -391,12 +397,17 @@
           <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
       </div>
-      <div style="padding-top: 1.8rem;">
+      <div style="padding-top: 1.8rem; padding-left: 4.5rem;">
         <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.8rem;">YouTube Live — Corpse Flower Bloom</h3>
-        <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-          <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
-          <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
-        </ul>
+        <div class="project-layout" style="gap: 2rem;">
+          <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
+            <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
+            <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
+          </ul>
+          <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener">
+            <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" loading="lazy">
+          </a>
+        </div>
       </div>
     </div>
 
@@ -505,6 +516,16 @@
           <img src="images/sign-06.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
         </div>
       </div>
+    </div>
+  </section>
+
+  <div class="section-bar reveal">
+    <span class="section-bar-title">Science Storytelling</span>
+  </div>
+
+  <section id="storytelling" class="reveal">
+    <div class="project">
+      <p class="project-desc">Content coming soon.</p>
     </div>
   </section>
 
