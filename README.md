@@ -444,22 +444,22 @@ EDIT 3-30 6:23
       </div>
       <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/DUrFiGMkleZ/?img_index=2" target="_blank" rel="noopener">
-          <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+          <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DViE1OFFLs1/?img_index=1" target="_blank" rel="noopener">
-          <img src="images/ggp-02.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+          <img src="images/ggp-02.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVUCEhYFP6a/?img_index=1" target="_blank" rel="noopener">
-          <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+          <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
-          <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+          <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVCzSMBFLF2/" target="_blank" rel="noopener">
-          <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+          <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
-          <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy">
+          <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
       </div>
     </div>
