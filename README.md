@@ -287,7 +287,7 @@ EDIT 3-30 6:23
       <div class="project-top" style="grid-template-columns: 3rem 1fr 260px;">
         <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 7 L21 5 L17 10 L22 12 L16 15 L18 19 L13 17 L13 23 L11 23 L11 17 L6 19 L8 15 L2 12 L7 10 L3 5 L9 7 Z" fill="#a8c898"/></svg></span>
         <div>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem; line-height: 1;">San Francisco Conservatory of Flowers</h2>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">San Francisco Conservatory of Flowers</h2>
           <div class="project-desc">
               <b>January 2021 – December 2022 · Interim Communications Manager</b>
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
