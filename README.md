@@ -284,10 +284,9 @@ EDIT 3-30 6:23
 
     <!-- Project 01: Instagram -->
     <div class="project">
-      <div class="project-top">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M17 8C8 10 5.9 16.17 3.82 21.5L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2" fill="#a8c898"/></svg></span>
-        <div style="display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start;">
-          <div>
+      <div class="project-top" style="grid-template-columns: 3rem 1fr 260px;">
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 7 L21 5 L17 10 L22 12 L16 15 L18 19 L13 17 L13 23 L11 23 L11 17 L6 19 L8 15 L2 12 L7 10 L3 5 L9 7 Z" fill="#a8c898"/></svg></span>
+        <div>
           <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem; line-height: 1;">San Francisco Conservatory of Flowers</h2>
           <div class="project-desc">
               <b>January 2021 – December 2022 · Interim Communications Manager</b>
@@ -371,7 +370,6 @@ EDIT 3-30 6:23
               </div>
               </a>
             </div>
-        </div>
       </div>
       <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
