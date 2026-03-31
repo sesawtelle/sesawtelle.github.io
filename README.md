@@ -18,7 +18,7 @@ EDIT 3-30 5:55
     nav {
       position: sticky; top: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
-      padding: 1.4rem 1rem;
+      padding: 1.4rem 2.5rem;
       border-bottom: 2px solid #2a2318;
       background: #f0ebe0;
     }
@@ -41,7 +41,7 @@ EDIT 3-30 5:55
       border-bottom: 2px solid #2a2318; min-height: 480px;
     }
     .hero-left {
-      padding: 4rem 1rem; border-right: 2px solid #2a2318;
+      padding: 4rem 2.5rem; border-right: 2px solid #2a2318;
       display: flex; flex-direction: column; justify-content: center;
     }
     .hero-kicker {
@@ -76,7 +76,7 @@ EDIT 3-30 5:55
 
     /* SECTION BAR */
     .section-bar {
-      display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1rem;
+      display: flex; align-items: center; gap: 1.2rem; padding: 1rem 2.5rem;
       border-top: 2px solid #2a2318; border-bottom: 1px solid #c8c0ae; background: #e8e0ce;
     }
     .section-bar-num   { font-size: 10px; letter-spacing: 0.14em; color: #4a6640; text-transform: uppercase; }
@@ -112,7 +112,7 @@ EDIT 3-30 5:55
 
     /* WORK */
     #work { border-bottom: 2px solid #2a2318; }
-    .project { padding: 2.8rem 1rem; border-bottom: 1px solid #c8dab8; }
+    .project { padding: 2.8rem 2.5rem; border-bottom: 1px solid #c8dab8; }
     .project:last-child { border-bottom: none; }
     .project-top { display: grid; grid-template-columns: 3rem 1fr; gap: 1.5rem; margin-bottom: 1.8rem; align-items: start; }
     .project-index { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 300; font-style: italic; color: #a8c898; line-height: 1; padding-top: 0.1rem; }
@@ -148,7 +148,7 @@ EDIT 3-30 5:55
 
     /* CONTACT */
     #contact {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; padding: 3.5rem 1rem;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; padding: 3.5rem 2.5rem;
       border-bottom: 2px solid #2a2318; align-items: center; background: #e8e0ce;
     }
     .contact-intro { font-family: 'Fraunces', serif; font-size: clamp(1.6rem, 2.5vw, 2.2rem); font-weight: 300; line-height: 1.3; margin-bottom: 1rem; color: #2a2318; }
@@ -191,7 +191,7 @@ EDIT 3-30 5:55
 
     /* FOOTER */
     footer {
-      border-top: 2px solid #2a2318; padding: 1.2rem 1rem;
+      border-top: 2px solid #2a2318; padding: 1.2rem 2.5rem;
       display: flex; justify-content: space-between;
       font-size: 10px; letter-spacing: 0.1em; color: #9a9080; text-transform: uppercase; background: #f0ebe0;
     }
