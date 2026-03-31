@@ -285,7 +285,7 @@ EDIT 3-30 6:23
     <!-- Project 01: Instagram -->
     <div class="project">
       <div class="project-top" style="grid-template-columns: 3rem 1fr 260px;">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 7 L21 5 L17 10 L22 12 L16 15 L18 19 L13 17 L13 23 L11 23 L11 17 L6 19 L8 15 L2 12 L7 10 L3 5 L9 7 Z" fill="#a8c898"/></svg></span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 9 L21 5 L17 12 L20 16 L13.5 18 L13 23 L11 23 L10.5 18 L4 16 L7 12 L3 5 L9 9 Z" fill="#a8c898"/></svg></span>
         <div>
           <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">San Francisco Conservatory of Flowers</h2>
           <div class="project-desc">
@@ -396,9 +396,8 @@ EDIT 3-30 6:23
     <!-- Project 02: Secrets of Golden Gate Park -->
     <div class="project">
       <div class="project-top">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2 L15 7 L21 5 L17 10 L22 12 L16 15 L18 19 L13 17 L13 23 L11 23 L11 17 L6 19 L8 15 L2 12 L7 10 L3 5 L9 7 Z" fill="#a8c898"/></svg></span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 1 L15 4 L17 7 L18 10 L17 14 L16 17 L13 20 L13 23 L11 23 L11 20 L8 17 L7 14 L6 10 L7 7 L9 4 Z" fill="#a8c898"/></svg></span>
         <div>
-          <span class="work-tag">Instagram</span>
           <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Secrets of Golden Gate Park</h2>
           <div class="project-desc-row">
             <div class="project-desc">
@@ -434,7 +433,7 @@ EDIT 3-30 6:23
                   </div>
                 </div>
                 <div class="ig-stats">
-                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Followers</span></div>
+                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">227</span><span class="ig-stat-label">Followers</span></div>
                 </div>
               </div>
               </a>
@@ -450,7 +449,7 @@ EDIT 3-30 6:23
           <img src="images/ggp-02.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVUCEhYFP6a/?img_index=1" target="_blank" rel="noopener">
-          <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
+          <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: center 30%;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
           <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
@@ -467,7 +466,7 @@ EDIT 3-30 6:23
     <!-- Project 03: YouTube -->
     <div class="project">
       <div class="project-top">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M17 8C8 10 5.9 16.17 3.82 21.5L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2" fill="#a8c898"/></svg></span>
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 1 L15 4 L17 7 L18 10 L17 14 L16 17 L13 20 L13 23 L11 23 L11 20 L8 17 L7 14 L6 10 L7 7 L9 4 Z" fill="#a8c898"/></svg></span>
         <div>
           <span class="work-tag">Video</span>
           <div class="project-org">San Francisco Conservatory of Flowers</div>
