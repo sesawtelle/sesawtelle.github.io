@@ -1,4 +1,4 @@
-EDIT 3-30 5:45
+EDIT 3-30 5:55
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -128,19 +128,18 @@ EDIT 3-30 5:45
     /* Instagram profile screenshot */
     .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
-    /* Instagram profile card */
-    .ig-profile-card { border: 1px solid #c8c0ae; padding: 1.25rem 1.4rem; background: #f0ebe0; }
-    .ig-profile-header { display: flex; align-items: center; gap: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #c8c0ae; margin-bottom: 0.9rem; }
-    .ig-avatar { width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid #4a6640; display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', serif; font-size: 1.4rem; color: #4a6640; flex-shrink: 0; }
-    .ig-handle { font-size: 11px; font-weight: 400; letter-spacing: 0.06em; color: #2a2318; margin-bottom: 0.35rem; }
+    /* Social profile cards */
+    .social-cards { display: flex; flex-direction: column; gap: 0.75rem; }
+    .ig-profile-card { border: 1px solid #c8c0ae; padding: 1.1rem 1.3rem; background: #f0ebe0; }
+    .ig-profile-header { display: flex; align-items: center; gap: 0.85rem; padding-bottom: 0.85rem; border-bottom: 1px solid #c8c0ae; margin-bottom: 0.75rem; }
+    .ig-avatar { width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .ig-handle { font-size: 11px; font-weight: 400; letter-spacing: 0.06em; color: #2a2318; margin-bottom: 0.25rem; }
     .ig-platform { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #7a6e5a; }
-    .ig-stats { display: grid; grid-template-columns: repeat(3, 1fr); text-align: center; margin-bottom: 0.9rem; }
-    .ig-stat { padding: 0.5rem 0; border-right: 1px solid #c8c0ae; }
+    .ig-stats { display: flex; justify-content: space-around; text-align: center; }
+    .ig-stat { padding: 0.4rem 0.75rem; border-right: 1px solid #c8c0ae; flex: 1; }
     .ig-stat:last-child { border-right: none; }
     .ig-stat-num { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; display: block; line-height: 1.2; }
     .ig-stat-label { font-size: 8.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #7a6e5a; display: block; margin-top: 0.15rem; }
-    .ig-profile-name { font-family: 'Fraunces', serif; font-size: 0.85rem; font-weight: 600; color: #2a2318; margin-bottom: 0.3rem; }
-    .ig-profile-bio { font-size: 11px; color: #7a6e5a; line-height: 1.65; }
     /* YouTube layout */
     .project-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
     .project-img-link { display: block; overflow: hidden; border: 1px solid #c8c0ae; }
@@ -296,21 +295,71 @@ EDIT 3-30 5:45
                 <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
               </ul>
             </div>
-            <div class="ig-profile-card">
-              <div class="ig-profile-header">
-                <div class="ig-avatar">◈</div>
-                <div>
-                  <div class="ig-handle">@conservatoryofflowers</div>
-                  <div class="ig-platform">Instagram</div>
+            <div class="social-cards">
+              <!-- Instagram -->
+              <div class="ig-profile-card">
+                <div class="ig-profile-header">
+                  <div class="ig-avatar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
+                      <defs>
+                        <radialGradient id="ig-g" cx="30%" cy="107%" r="150%">
+                          <stop offset="0%" stop-color="#fdf497"/>
+                          <stop offset="45%" stop-color="#fd5949"/>
+                          <stop offset="60%" stop-color="#d6249f"/>
+                          <stop offset="90%" stop-color="#285AEB"/>
+                        </radialGradient>
+                      </defs>
+                      <rect width="24" height="24" rx="5.5" fill="url(#ig-g)"/>
+                      <circle cx="12" cy="12" r="4.5" fill="none" stroke="#fff" stroke-width="1.8"/>
+                      <circle cx="17.5" cy="6.5" r="1.1" fill="#fff"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="ig-handle">@conservatoryofflowers</div>
+                    <div class="ig-platform">Instagram</div>
+                  </div>
+                </div>
+                <div class="ig-stats">
+                  <div class="ig-stat"><span class="ig-stat-num">660</span><span class="ig-stat-label">Posts</span></div>
+                  <div class="ig-stat"><span class="ig-stat-num">66.8K</span><span class="ig-stat-label">Followers</span></div>
                 </div>
               </div>
-              <div class="ig-stats">
-                <div class="ig-stat"><span class="ig-stat-num">660</span><span class="ig-stat-label">Posts</span></div>
-                <div class="ig-stat"><span class="ig-stat-num">66.8K</span><span class="ig-stat-label">Followers</span></div>
-                <div class="ig-stat"><span class="ig-stat-num">239</span><span class="ig-stat-label">Following</span></div>
+              <!-- YouTube -->
+              <div class="ig-profile-card">
+                <div class="ig-profile-header">
+                  <div class="ig-avatar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
+                      <rect width="24" height="24" rx="5" fill="#FF0000"/>
+                      <polygon points="10,7.5 10,16.5 18,12" fill="#fff"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="ig-handle">Conservatory of Flowers</div>
+                    <div class="ig-platform">YouTube</div>
+                  </div>
+                </div>
+                <div class="ig-stats">
+                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Subscribers</span></div>
+                </div>
               </div>
-              <div class="ig-profile-name">San Francisco Conservatory of Flowers</div>
-              <div class="ig-profile-bio">A Victorian greenhouse in the heart of Golden Gate Park. Home to rare &amp; exotic tropical plants.</div>
+              <!-- Facebook -->
+              <div class="ig-profile-card">
+                <div class="ig-profile-header">
+                  <div class="ig-avatar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34">
+                      <rect width="24" height="24" rx="5" fill="#1877F2"/>
+                      <path d="M13.5 8H15V5.5h-1.5C11.57 5.5 10 7.07 10 9v1.5H8V13h2v8h3v-8h2l.5-2.5H13V9c0-.28.22-.5.5-.5z" fill="#fff"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="ig-handle">@conservatoryofflowers</div>
+                    <div class="ig-platform">Facebook</div>
+                  </div>
+                </div>
+                <div class="ig-stats">
+                  <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">—</span><span class="ig-stat-label">Followers</span></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
