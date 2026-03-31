@@ -1,4 +1,4 @@
-EDIT 3-30 5:27PM
+EDIT 3-30 5:33PM
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -126,7 +126,7 @@ EDIT 3-30 5:27PM
     .project-grid-link img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.35s; }
     .project-grid-link:hover img { transform: scale(1.04); }
     /* Instagram profile screenshot */
-    .project-desc-row { display: grid; grid-template-columns: 1fr 460px; gap: 2rem; align-items: start; }
+    .project-desc-row { display: grid; grid-template-columns: 1fr 320px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
     /* YouTube layout */
     .project-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
@@ -265,44 +265,46 @@ EDIT 3-30 5:27PM
   <section id="work" class="reveal">
 
     <!-- Project 01: Instagram -->
-    <div class="project" style="display: grid; grid-template-columns: auto 1fr; gap: 2rem;">
-      <div style="display: flex; flex-direction: column; gap: 0.4rem; padding-top: 0.2rem;">
-        <span class="work-tag">Instagram</span>
-        <span class="work-tag" style="background: #2a5c28;">Facebook</span>
-        <span class="work-tag" style="background: #5a9a4a;">Youtube</span>
-      </div>
-      <div>
-        <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
-        <div class="project-desc-row">
-          <div class="project-desc">
-            <b>January 2021 – December 2022 · Interim Communications Manager</b>
-            <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-              <li>Shared dazzling photos of tropical plants alongside their botanical backstories.</li>
-              <li>Behind-the-scenes reels let viewers dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
-              <li>Used Hootsuite to create content calendar, schedule posts, and manage cross-posting on multiple platforms.</li>
-              <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
-            </ul>
-          </div>
-          <div style="display: flex; align-items: stretch; gap: 0.75rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="flex-shrink: 0; width: auto; height: 100%; min-height: 320px;" aria-label="Instagram">
-              <defs>
-                <radialGradient id="ig-grad" cx="30%" cy="107%" r="150%">
-                  <stop offset="0%" stop-color="#fdf497"/>
-                  <stop offset="5%" stop-color="#fdf497"/>
-                  <stop offset="45%" stop-color="#fd5949"/>
-                  <stop offset="60%" stop-color="#d6249f"/>
-                  <stop offset="90%" stop-color="#285AEB"/>
-                </radialGradient>
-              </defs>
-              <rect width="24" height="24" rx="5.5" fill="url(#ig-grad)"/>
-              <circle cx="12" cy="12" r="4.5" fill="none" stroke="#fff" stroke-width="1.8"/>
-              <circle cx="17.5" cy="6.5" r="1.1" fill="#fff"/>
-              <rect x="2.5" y="2.5" width="19" height="19" rx="4.5" fill="none" stroke="#fff" stroke-width="1.5"/>
-            </svg>
-            <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
+    <div class="project">
+      <div class="project-top">
+        <span class="project-index">01</span>
+        <div>
+          <span class="work-tag">Instagram</span>
+          <span class="work-tag" style="background: #2a5c28;">Facebook</span>
+          <span class="work-tag" style="background: #5a9a4a;">Youtube</span>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: 0.6rem; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
+          <div class="project-desc-row">
+            <div class="project-desc">
+              <b>January 2021 – December 2022 · Interim Communications Manager</b>
+              <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
+                <li>Shared dazzling photos of tropical plants alongside their botanical backstories.</li>
+                <li>Behind-the-scenes reels let viewers dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
+                <li>Used Hootsuite to create content calendar, schedule posts, and manage cross-posting on multiple platforms.</li>
+                <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
+              </ul>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" style="flex-shrink: 0; margin-top: 4px;" aria-label="Instagram">
+                <defs>
+                  <radialGradient id="ig-grad" cx="30%" cy="107%" r="150%">
+                    <stop offset="0%" stop-color="#fdf497"/>
+                    <stop offset="5%" stop-color="#fdf497"/>
+                    <stop offset="45%" stop-color="#fd5949"/>
+                    <stop offset="60%" stop-color="#d6249f"/>
+                    <stop offset="90%" stop-color="#285AEB"/>
+                  </radialGradient>
+                </defs>
+                <rect width="24" height="24" rx="5.5" fill="url(#ig-grad)"/>
+                <circle cx="12" cy="12" r="4.5" fill="none" stroke="#fff" stroke-width="1.8"/>
+                <circle cx="17.5" cy="6.5" r="1.1" fill="#fff"/>
+                <rect x="2.5" y="2.5" width="19" height="19" rx="4.5" fill="none" stroke="#fff" stroke-width="1.5"/>
+              </svg>
+              <img class="project-profile-img" src="instagram-profile.jpg" alt="@conservatoryofflowers Instagram profile — 66.8K followers">
+            </div>
           </div>
         </div>
-        <div class="project-grid" style="margin-top: 1.8rem;">
+      </div>
+      <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
           <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/6c77f3b1-41ea-46dd-ba12-b6807887276d/Screenshot+2025-09-17+at+12.39.24%E2%80%AFPM.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
         </a>
@@ -321,7 +323,6 @@ EDIT 3-30 5:27PM
         <a class="project-grid-link" href="https://www.instagram.com/p/CezZZv6jnNj/?hl=en" target="_blank" rel="noopener">
           <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210284067-P33HN3L7OHUKGKPLR8MQ/Screenshot%252B2025-09-17%252Bat%252B12.46.41%2525E2%252580%2525AFPM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
-        </div>
       </div>
     </div>
 
