@@ -237,15 +237,15 @@ EDIT 3-30 6:23
 
   <section id="hero">
     <div class="hero-left">
-      <p class="hero-kicker">Portfolio — Social Media & Science Interpretation</p>
+      <p class="hero-kicker" style="font-size: 13px; letter-spacing: 0.22em;">Portfolio</p>
       <h1 class="hero-title">Sarah Sawtelle</h1>
       <div class="sidebar-item">
         <div class="sidebar-key">Location</div>
         <div class="sidebar-val">San Francisco, CA</div>
       </div>
       <div class="sidebar-item">
-        <div class="sidebar-key">Specialties</div>
-        <div class="sidebar-val">Social Media Content Creation & Management<br>Interpretive Sign Creation<br>Educational Program Development<br>Volunteer Management</div>
+        <div class="sidebar-key">About Me</div>
+        <div class="sidebar-val">Non-profit professional supporting conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond — with a focus on social media strategy, interpretive design, and science communication.</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Available For</div>
