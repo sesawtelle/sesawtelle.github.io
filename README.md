@@ -377,9 +377,6 @@
               </a>
             </div>
       </div>
-      <div style="padding-top: 1.8rem; padding-left: 4.5rem; padding-bottom: 1rem;">
-        <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0;">Instagram</h3>
-      </div>
       <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
           <img src="images/work-01.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
@@ -501,10 +498,10 @@
       </div>
       <div class="project-grid">
         <a class="project-grid-link" href="images/sign-01.png" target="_blank" rel="noopener">
-          <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2); transform-origin: center 28%;">
+          <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
         </a>
         <a class="project-grid-link" href="images/sign-02.png" target="_blank" rel="noopener">
-          <img src="images/sign-02.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2); transform-origin: right center;">
+          <img src="images/sign-02.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(3); transform-origin: right center;">
         </a>
         <a class="project-grid-link" href="images/sign-03.png" target="_blank" rel="noopener">
           <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
@@ -513,10 +510,10 @@
           <img src="images/sign-04.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="images/sign-05.jpg" target="_blank" rel="noopener">
-          <img src="images/sign-05.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+          <img src="images/sign-05.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2.2); transform-origin: right center;">
         </a>
         <a class="project-grid-link" href="images/sign-06.png" target="_blank" rel="noopener">
-          <img src="images/sign-06.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+          <img src="images/sign-06.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.6); transform-origin: right bottom;">
         </a>
       </div>
     </div>
