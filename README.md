@@ -398,8 +398,8 @@
         </a>
       </div>
       <div style="padding-top: 1.8rem; padding-left: 4.5rem;">
-        <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.8rem;">YouTube Live — Corpse Flower Bloom</h3>
-        <div class="project-layout" style="gap: 2rem;">
+        <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.3rem;">YouTube Live — Corpse Flower Bloom</h3>
+        <div class="project-layout" style="gap: 2rem; align-items: start;">
           <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
             <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
             <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
