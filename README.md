@@ -245,7 +245,7 @@
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">About Me</div>
-        <div class="sidebar-val">Non-profit professional supporting conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. I can help craft and share your story through eye-catching social media posts, compelling interpretive signs, or lively educational programs.</div>
+        <div class="sidebar-val">Informal science educator who crafts stories that spark awe and appreciation for the natural world. I work with conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. Let me help you by creating compelling social media posts, inspiring interpretive signs, or lively educational programs. I also have experience in volunteer coordination, project management, and public speaking.</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Available For</div>
@@ -391,6 +391,13 @@
           <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
       </div>
+      <div style="padding-top: 1.8rem;">
+        <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.8rem;">YouTube Live — Corpse Flower Bloom</h3>
+        <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
+          <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
+          <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
+        </ul>
+      </div>
     </div>
 
     <!-- Project 02: Secrets of Golden Gate Park -->
@@ -459,24 +466,6 @@
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVXs45vjTk7/" target="_blank" rel="noopener">
           <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
-        </a>
-      </div>
-    </div>
-
-    <!-- Project 03: YouTube -->
-    <div class="project">
-      <div class="project-top">
-        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
-        <div>
-          <span class="work-tag">Video</span>
-          <div class="project-org">San Francisco Conservatory of Flowers</div>
-          <h3 class="project-title">YouTube Live — Corpse Flower Bloom</h3>
-        </div>
-      </div>
-      <div class="project-layout">
-        <p class="project-desc">There is no event that brings more visitors to the garden than a bloom of the Corpse Flower. An impending bloom during a pandemic-era garden closure led me to make a quick pivot towards online programming. I envisioned and produced a series of YouTube Live programs that featured Conservatory staff and volunteers sharing the story of the Corpse Flower — its fascinating natural history and the role of botanical gardens in conservation. The bloom was even pollinated live on camera. An event that would normally bring thousands of visitors through the Conservatory's doors instead reached thousands of viewers across the world.</p>
-        <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" loading="lazy">
         </a>
       </div>
     </div>
