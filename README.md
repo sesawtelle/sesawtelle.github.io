@@ -115,7 +115,7 @@ EDIT 3-30 6:23
     .project { padding: 2.8rem 2.5rem; border-bottom: 1px solid #c8dab8; }
     .project:last-child { border-bottom: none; }
     .project-top { display: grid; grid-template-columns: 3rem 1fr; gap: 1.5rem; margin-bottom: 1.8rem; align-items: start; }
-    .project-index { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 300; font-style: italic; color: #a8c898; line-height: 1; padding-top: 0.1rem; }
+    .project-index { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 300; font-style: italic; color: #a8c898; line-height: 1; display: flex; align-items: flex-start; }
     .work-tag { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #f0ebe0; background: #3a7a30; padding: 0.3rem 0.8rem; white-space: nowrap; display: inline-block; margin-bottom: 0.6rem; }
     .project-org { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #4a6640; margin-bottom: 0.3rem; }
     .project-title { font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.7rem; }
@@ -288,7 +288,7 @@ EDIT 3-30 6:23
         <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M17 8C8 10 5.9 16.17 3.82 21.5L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2" fill="#a8c898"/></svg></span>
         <div style="display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start;">
           <div>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem;">San Francisco Conservatory of Flowers</h2>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-bottom: 0.5rem; line-height: 1;">San Francisco Conservatory of Flowers</h2>
           <div class="project-desc">
               <b>January 2021 – December 2022 · Interim Communications Manager</b>
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
@@ -375,22 +375,22 @@ EDIT 3-30 6:23
       </div>
       <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/6c77f3b1-41ea-46dd-ba12-b6807887276d/Screenshot+2025-09-17+at+12.39.24%E2%80%AFPM.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-01.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Chk3u_SDijd/?hl=en" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758211017494-FUJ0SUV9HGEZHLXDQ5K7/Screenshot%252B2025-09-18%252Bat%252B8.39.17%2525E2%252580%2525AFAM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-02.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CcGPQgtp826/?hl=en&img_index=1" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210426850-WMN5P2XOHETDHEGPMJV1/Screenshot%2B2025-09-18%2Bat%2B8.46.24%25E2%2580%25AFAM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-03.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CeEmW9vlS5r/?hl=en" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758211246811-XZ6XOYRC3KETKZ0N45LQ/Screenshot%252B2025-09-17%252Bat%252B12.46.15%2525E2%252580%2525AFPM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-04.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Ci0N9EjJzFF/?hl=en" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210882585-Q2R8I1TFIB2TPID11L9D/Screenshot%2B2025-09-18%2Bat%2B8.50.25%25E2%2580%25AFAM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CezZZv6jnNj/?hl=en" target="_blank" rel="noopener">
-          <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/1758210284067-P33HN3L7OHUKGKPLR8MQ/Screenshot%252B2025-09-17%252Bat%252B12.46.41%2525E2%252580%2525AFPM.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
         </a>
       </div>
     </div>
