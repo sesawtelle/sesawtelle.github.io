@@ -1,4 +1,4 @@
-EDIT 3-30 5:22PM
+EDIT 3-30 5:27PM
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -209,7 +209,7 @@ EDIT 3-30 5:22PM
 <body>
 
   <nav>
-    <a class="logo" href="#hero">Sarah Sawtelle</a>
+    <a class="logo" href="#hero"></a>
     <div class="nav-links">
       <a class="nav-link" href="#skills">Skills</a>
       <a class="nav-link" href="#work">Work</a>
@@ -219,8 +219,8 @@ EDIT 3-30 5:22PM
 
   <section id="hero">
     <div class="hero-left">
-      <p class="hero-kicker">Portfolio — Social Media & Interpretation</p>
-      <h1 class="hero-title">Sarah<br>Sawtelle</h1>
+      <p class="hero-kicker">Portfolio — Social Media & Science Interpretation</p>
+      <h1 class="hero-title">Sarah Sawtelle</h1>
       <div class="sidebar-item">
         <div class="sidebar-key">Location</div>
         <div class="sidebar-val">San Francisco, CA</div>
@@ -233,7 +233,6 @@ EDIT 3-30 5:22PM
         <div class="sidebar-key">Available For</div>
         <div class="sidebar-val">Freelance & Contract</div>
       </div>
-      <a href="#work" class="hero-btn">View Work →</a>
     </div>
     <div class="hero-right">
       <img class="hero-photo" src="hero.jpg" alt="Interior of the San Francisco Conservatory of Flowers — Giant Victoria water lily pads floating in the tropical pond">
