@@ -374,22 +374,27 @@
       <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
           <img src="images/work-01.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
-          <img src="images/work-01-hover.png" alt="Bat Flower trivia post caption" loading="lazy" class="hover-img">
+          <img src="images/work-01-hover.jpg" alt="Bat Flower trivia post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Chk3u_SDijd/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-02.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-02-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CcGPQgtp826/?hl=en&img_index=1" target="_blank" rel="noopener">
           <img src="images/work-03.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-03-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CeEmW9vlS5r/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-04.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-04-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Ci0N9EjJzFF/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-05-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CezZZv6jnNj/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-06-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
       </div>
       <div style="padding-top: 1.8rem; padding-left: 4.5rem;">
