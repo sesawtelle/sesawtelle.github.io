@@ -377,7 +377,7 @@
           <img src="images/work-01-hover.jpg" alt="Bat Flower trivia post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Chk3u_SDijd/?hl=en" target="_blank" rel="noopener">
-          <img src="images/work-02.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-02.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(1.3); transform-origin: right 30%;">
           <img src="images/work-02-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CcGPQgtp826/?hl=en&img_index=1" target="_blank" rel="noopener">
@@ -393,7 +393,7 @@
           <img src="images/work-05-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CezZZv6jnNj/?hl=en" target="_blank" rel="noopener">
-          <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(2); transform-origin: center center;">
           <img src="images/work-06-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
       </div>
