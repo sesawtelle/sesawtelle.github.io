@@ -226,14 +226,6 @@
 <body>
 
 <div class="site-wrap">
-  <nav>
-    <a class="logo" href="#hero"></a>
-    <div class="nav-links">
-      <a class="nav-link" href="#skills">Skills</a>
-      <a class="nav-link" href="#work">Work</a>
-      <a class="nav-link" href="#contact">Contact</a>
-    </div>
-  </nav>
 
   <section id="hero">
     <div class="hero-left">
@@ -398,12 +390,14 @@
         </a>
       </div>
       <div style="padding-top: 1.8rem; padding-left: 4.5rem;">
-        <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.3rem;">YouTube Live — Corpse Flower Bloom</h3>
         <div class="project-layout" style="gap: 2rem; align-items: start;">
-          <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-            <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
-            <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
-          </ul>
+          <div>
+            <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.3rem;">YouTube Live — Corpse Flower Bloom</h3>
+            <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
+              <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
+              <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
+            </ul>
+          </div>
           <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener">
             <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" loading="lazy">
           </a>
@@ -506,8 +500,8 @@
         <a class="project-grid-link" href="images/sign-03.png" target="_blank" rel="noopener">
           <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
         </a>
-        <a class="project-grid-link" href="images/sign-04.jpg" target="_blank" rel="noopener">
-          <img src="images/sign-04.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+        <a class="project-grid-link" href="images/sign-04.png" target="_blank" rel="noopener">
+          <img src="images/sign-04.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
         </a>
         <a class="project-grid-link" href="images/sign-05.jpg" target="_blank" rel="noopener">
           <img src="images/sign-05.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2.2); transform-origin: right center;">
