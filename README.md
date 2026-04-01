@@ -255,21 +255,21 @@
       <div class="skill-card">
         <div class="skill-glyph">◈</div>
         <div class="skill-name">Social Media</div>
-        <div class="skill-desc">Visual storytelling across Instagram, Facebook, YouTube, and more. Original photography, video, design, and writing to share your organization's story.</div>
+        <div class="skill-desc">Connecting with online audiences on Instagram, Facebook, YouTube and more.</div>
       </div>
       </a>
       <a href="#signs" style="text-decoration: none; color: inherit; display: contents;">
       <div class="skill-card">
         <div class="skill-glyph">◉</div>
         <div class="skill-name">Interpretive Sign Development</div>
-        <div class="skill-desc">Educational signs for museums, parks, and gardens.</div>
+        <div class="skill-desc">Creating signs that connect people to place in museums, parks, gardens and beyond.</div>
       </div>
       </a>
       <a href="#storytelling" style="text-decoration: none; color: inherit; display: contents;">
       <div class="skill-card">
         <div class="skill-glyph">◎</div>
         <div class="skill-name">Science Storytelling</div>
-        <div class="skill-desc">Translating natural history and ecology into engaging programs for broad audiences.</div>
+        <div class="skill-desc">Informal science education, hands-on and interactive activities, and public outreach.</div>
       </div>
       </a>
     </div>
@@ -455,7 +455,7 @@
       </div>
       <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/DVJtoNpFbdt/" target="_blank" rel="noopener">
-          <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
+          <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="transform: scale(1.3); transform-origin: center 35%;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVUCEhYFP6a/?img_index=1" target="_blank" rel="noopener">
           <img src="images/ggp-02.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
