@@ -529,29 +529,35 @@
   </section>
 
   <div class="section-bar reveal">
-    <span class="section-bar-title">Science Storytelling</span>
+    <span class="section-bar-title">Education Programs &amp; Outreach</span>
   </div>
 
   <section id="storytelling" class="reveal">
     <div class="project">
       <div class="project-grid">
         <div class="project-grid-link">
-          <img src="images/prog-01.jpg" alt="Science storytelling and outreach" loading="lazy">
+          <img src="images/prog-01.jpg" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1); transform-origin: right center; filter: brightness(1.25);">
+          <div class="sign-caption"><p><strong>Bird ID For Everybody</strong><br><em>California Academy of Sciences</em><br><br>Interactive activity teaching people how to use apps and field guides for bird identification.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-02.jpg" alt="Science storytelling and outreach" loading="lazy">
+          <img src="images/prog-02.jpg" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1.8); transform-origin: left center;">
+          <div class="sign-caption"><p><strong>Night Bloom</strong><br><em>Conservatory of Flowers</em><br><br>Hands-on carnivorous plant exploration for evening Night Bloom event.</p></div>
         </div>
         <div class="project-grid-link">
           <img src="images/prog-03.png" alt="Science storytelling and outreach" loading="lazy">
+          <div class="sign-caption"><p><strong>Outreach Table</strong><br><em>Gardens of Golden Gate Park</em><br><br>Community outreach to introduce the new Gardens of Golden Gate Park organization. Created interactive table with plant specimens.</p></div>
         </div>
         <div class="project-grid-link">
           <img src="images/prog-04.jpg" alt="Science storytelling and outreach" loading="lazy">
+          <div class="sign-caption"><p><strong>Condor Wings</strong><br><em>California Academy of Sciences</em><br><br>Fabricated wearable, actual-size California Condor wings with real ID tag and transmitter, to teach about Condor conservation.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-05.png" alt="Science storytelling and outreach" loading="lazy">
+          <img src="images/prog-05.png" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1.15); transform-origin: left center;">
+          <div class="sign-caption"><p><strong>Magnolia Interpretation Station</strong><br><em>San Francisco Botanical Garden</em><br><br>Hands-on, interactive specimen station that I trained volunteers to facilitate during the Magnolia bloom.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-06.png" alt="Science storytelling and outreach" loading="lazy">
+          <img src="images/prog-06.png" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
+          <div class="sign-caption"><p><strong>How much water do you eat?</strong><br><em>California Academy of Sciences</em><br><br>Interactive program showing the variable amounts of water used to produce different foods.</p></div>
         </div>
       </div>
     </div>
