@@ -396,7 +396,7 @@
           <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Ci0N9EjJzFF/?hl=en" target="_blank" rel="noopener">
-          <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(1); transform-origin: center 45%;">
+          <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(1); transform-origin: center 30%;">
           <img src="images/work-05-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
           <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
@@ -482,12 +482,14 @@
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
           <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
+          <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
           <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVXs45vjTk7/" target="_blank" rel="noopener">
           <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
+          <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
       </div>
     </div>
@@ -544,7 +546,7 @@
           <div class="sign-caption"><p><strong>Night Bloom</strong><br><em>Conservatory of Flowers</em><br><br>Hands-on carnivorous plant exploration for evening Night Bloom event.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-03.png" alt="Science storytelling and outreach" loading="lazy">
+          <img src="images/prog-03.png" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
           <div class="sign-caption"><p><strong>Outreach Table</strong><br><em>Gardens of Golden Gate Park</em><br><br>Community outreach to introduce the new Gardens of Golden Gate Park organization. Created interactive table with plant specimens.</p></div>
         </div>
         <div class="project-grid-link">
