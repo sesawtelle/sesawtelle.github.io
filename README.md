@@ -546,7 +546,7 @@
           <div class="sign-caption"><p><strong>Night Bloom</strong><br><em>Conservatory of Flowers</em><br><br>Hands-on carnivorous plant exploration for evening Night Bloom event.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-03.png" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
+          <img src="images/prog-03.png" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1.4); transform-origin: center 30%;">
           <div class="sign-caption"><p><strong>Outreach Table</strong><br><em>Gardens of Golden Gate Park</em><br><br>Community outreach to introduce the new Gardens of Golden Gate Park organization. Created interactive table with plant specimens.</p></div>
         </div>
         <div class="project-grid-link">
