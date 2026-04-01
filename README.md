@@ -380,7 +380,7 @@
           <img src="images/work-01-hover.jpg" alt="Bat Flower trivia post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Ci0N9EjJzFF/?hl=en" target="_blank" rel="noopener">
-          <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(1); transform-origin: center 65%;">
           <img src="images/work-05-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
           <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
