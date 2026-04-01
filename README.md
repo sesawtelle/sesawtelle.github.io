@@ -467,7 +467,7 @@
           </div>
         </div>
       </div>
-      <div class="project-grid">
+      <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
         <a class="project-grid-link" href="https://www.instagram.com/p/DVJtoNpFbdt/" target="_blank" rel="noopener">
           <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="transform: scale(1.3); transform-origin: center 35%;">
         </a>
@@ -477,14 +477,8 @@
         <a class="project-grid-link" href="https://www.instagram.com/stories/highlights/18434294539112364/" target="_blank" rel="noopener">
           <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: center 30%;">
         </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
-          <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
-        </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
           <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
-        </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DVXs45vjTk7/" target="_blank" rel="noopener">
-          <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
       </div>
     </div>
