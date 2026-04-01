@@ -413,6 +413,7 @@
             <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
               <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
               <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
+              <li><a href="corpse-flower.html" target="_blank" rel="noopener" style="color: #4a6640; text-decoration: none;"><em>Click here</em></a> to see more highlights from the Corpse Flower Social Media campaign.</li>
             </ul>
           </div>
           <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener" style="align-self: start; max-width: 85%; margin-top: 1.4rem;">
