@@ -556,8 +556,8 @@
           <div class="sign-caption"><p><strong>Magnolia Interpretation Station</strong><br><em>San Francisco Botanical Garden</em><br><br>Hands-on, interactive specimen station that I trained volunteers to facilitate during the Magnolia bloom.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-06.png" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
-          <div class="sign-caption"><p><strong>How much water do you eat?</strong><br><em>California Academy of Sciences</em><br><br>Interactive program showing the variable amounts of water used to produce different foods.</p></div>
+          <img src="images/prog-06.jpg" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
+          <div class="sign-caption"><p><strong>Interpretive Program Presentations</strong><br><em>Alcatraz Island</em><br><br>Designed and presented programs on Alcatraz history and nature, presented to crowds of up to 150 people.</p></div>
         </div>
       </div>
     </div>
