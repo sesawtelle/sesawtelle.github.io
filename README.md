@@ -505,7 +505,7 @@
         </div>
       </div>
       <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
-        <a class="project-grid-link" href="images/sign-01.png" target="_blank" rel="noopener">
+        <a class="project-grid-link" href="images/lowlandssign.pdf" target="_blank" rel="noopener">
           <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
         </a>
         <a class="project-grid-link" href="images/sign-05.jpg" target="_blank" rel="noopener">
