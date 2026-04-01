@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conservatory of Flowers: Interpretive Chalk Signs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300;1,9..144,600&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #f0ebe0; color: #2a2318;
+      font-family: 'DM Sans', sans-serif; font-weight: 300;
+    }
+    .page {
+      max-width: 900px; margin: 0 auto; padding: 4rem 2.5rem;
+    }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: #4a6640; text-decoration: none; margin-bottom: 3rem;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: #2a2318; }
+    .back-link::before { content: '←'; font-size: 12px; }
+    h1 {
+      font-family: 'Fraunces', serif; font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 600; line-height: 1.1; color: #2a2318;
+      margin-bottom: 1.2rem; letter-spacing: -0.02em;
+    }
+    .intro {
+      font-size: 14px; color: #7a6e5a; line-height: 1.85;
+      max-width: 55ch; margin-bottom: 3rem;
+      border-bottom: 2px solid #2a2318; padding-bottom: 2.5rem;
+    }
+    .grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
+    }
+    .grid-item { overflow: hidden; aspect-ratio: 1 / 1; }
+    .grid-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.35s; }
+    .grid-item img:hover { transform: scale(1.03); }
+    @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <a class="back-link" href="README.md">Back to Portfolio</a>
+    <h1>Conservatory of Flowers:<br>Interpretive Chalk Signs</h1>
+    <p class="intro">Ephemeral chalkboard signs at the Conservatory of Flowers allowed me to highlight plants' stories in a format that was both informal and personable.</p>
+    <div class="grid">
+      <div class="grid-item"><img src="images/chalk1.jpg" alt="Interpretive chalk sign — Conservatory of Flowers"></div>
+      <div class="grid-item"><img src="images/chalk3.png" alt="Interpretive chalk sign — Conservatory of Flowers"></div>
+      <div class="grid-item"><img src="images/chalk4.jpg" alt="Interpretive chalk sign — Conservatory of Flowers"></div>
+      <div class="grid-item"><img src="images/chalk-titanum.png" alt="Interpretive chalk sign — Conservatory of Flowers"></div>
+    </div>
+  </div>
+</body>
+</html>

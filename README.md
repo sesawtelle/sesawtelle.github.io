@@ -130,6 +130,9 @@
     .play-icon { position: absolute; bottom: 0.6rem; right: 0.6rem; width: 2rem; height: 2rem; background: rgba(255,255,255,0.55); border-radius: 50%; display: flex; align-items: center; justify-content: center; pointer-events: none; transition: opacity 0.3s ease; }
     .play-icon svg { width: 0.9rem; height: 0.9rem; fill: #2a2318; margin-left: 2px; }
     .project-grid-link:hover .play-icon { opacity: 0; }
+    .sign-caption { position: absolute; inset: 0; background: rgba(42,35,24,0.78); color: #f0ebe0; display: flex; align-items: center; justify-content: center; padding: 1.2rem; opacity: 0; transition: opacity 0.3s ease; pointer-events: none; }
+    .sign-caption p { font-size: 12px; line-height: 1.65; text-align: center; }
+    .project-grid-link:hover .sign-caption { opacity: 1; }
     /* Instagram profile screenshot */
     .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
@@ -507,15 +510,19 @@
       <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
         <a class="project-grid-link" href="images/lowlandssign.pdf" target="_blank" rel="noopener">
           <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
+          <div class="sign-caption"><p>Developed a series of interpretive signs for the Lowland Tropics Gallery at Conservatory of Flowers. Click to see full signs.</p></div>
         </a>
         <a class="project-grid-link" href="images/sign-05.jpg" target="_blank" rel="noopener">
           <img src="images/sign-05.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2.2); transform-origin: right center;">
+          <div class="sign-caption"><p>Created a series of simple interpretive signs that shared the natural history and cultural significance of Cuetlaxochitl (Poinsettia) for a short-term holiday display.</p></div>
         </a>
-        <a class="project-grid-link" href="images/sign-03.png" target="_blank" rel="noopener">
+        <a class="project-grid-link" href="chalk-signs.html" target="_blank" rel="noopener">
           <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+          <div class="sign-caption"><p>Created a series of ephemeral chalkboard signs to highlight different plants at the Conservatory of Flowers. Click to see more examples.</p></div>
         </a>
         <a class="project-grid-link" href="images/sign-05b.jpg" target="_blank" rel="noopener">
           <img src="images/sign-05b.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
+          <div class="sign-caption"><p>Developed an entryway sign for the Conservatory of Flowers that featured swappable tags showing current blooms and plant highlights.</p></div>
         </a>
       </div>
     </div>
