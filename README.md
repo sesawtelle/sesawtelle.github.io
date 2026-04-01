@@ -510,19 +510,19 @@
       <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
         <a class="project-grid-link" href="images/lowlandssign.pdf" target="_blank" rel="noopener">
           <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
-          <div class="sign-caption"><p>Developed a series of interpretive signs for the Lowland Tropics Gallery at Conservatory of Flowers. Click to see full signs.</p></div>
+          <div class="sign-caption"><p>Developed large interpretive signs about rainforest plant adaptations and conservation. Installed in the Lowland Tropics Gallery at Conservatory of Flowers. Click to see full signs.</p></div>
         </a>
         <a class="project-grid-link" href="images/sign-05.jpg" target="_blank" rel="noopener">
           <img src="images/sign-05.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2.2); transform-origin: right center;">
-          <div class="sign-caption"><p>Created a series of simple interpretive signs that shared the natural history and cultural significance of Cuetlaxochitl (Poinsettia) for a short-term holiday display.</p></div>
+          <div class="sign-caption"><p>Created a series of simple signs about the natural history and cultural significance of Cuetlaxochitl (Poinsettia) for a short-term holiday display.</p></div>
         </a>
         <a class="project-grid-link" href="chalk-signs.html" target="_blank" rel="noopener">
           <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
-          <div class="sign-caption"><p>Created a series of ephemeral chalkboard signs to highlight different plants at the Conservatory of Flowers. Click to see more examples.</p></div>
+          <div class="sign-caption"><p>Ephemeral chalkboard signs at the Conservatory of Flowers. Click to see more examples.</p></div>
         </a>
         <a class="project-grid-link" href="images/sign-05b.jpg" target="_blank" rel="noopener">
           <img src="images/sign-05b.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
-          <div class="sign-caption"><p>Developed an entryway sign for the Conservatory of Flowers that featured swappable tags showing current blooms and plant highlights.</p></div>
+          <div class="sign-caption"><p>Entryway sign for the Conservatory of Flowers, featuring swappable tags of current blooms and plant highlights.</p></div>
         </a>
       </div>
     </div>
