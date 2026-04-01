@@ -534,7 +534,26 @@
 
   <section id="storytelling" class="reveal">
     <div class="project">
-      <p class="project-desc">Content coming soon.</p>
+      <div class="project-grid">
+        <div class="project-grid-link">
+          <img src="images/prog-01.jpg" alt="Science storytelling and outreach" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/prog-02.jpg" alt="Science storytelling and outreach" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/prog-03.png" alt="Science storytelling and outreach" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/prog-04.jpg" alt="Science storytelling and outreach" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/prog-05.png" alt="Science storytelling and outreach" loading="lazy">
+        </div>
+        <div class="project-grid-link">
+          <img src="images/prog-06.png" alt="Science storytelling and outreach" loading="lazy">
+        </div>
+      </div>
     </div>
   </section>
 
