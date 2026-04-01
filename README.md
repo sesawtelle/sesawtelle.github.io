@@ -125,8 +125,8 @@
     .project-grid-link { display: block; overflow: hidden; aspect-ratio: 1 / 1; }
     .project-grid-link img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.35s; }
     .project-grid-link:hover img { transform: scale(1.04); }
-    .project-grid-link:hover img:last-child { opacity: 1; transform: none; }
-    .project-grid-link img:last-child { transform: none; }
+    .project-grid-link .hover-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s ease; transform: none !important; }
+    .project-grid-link:hover .hover-img { opacity: 1; }
     /* Instagram profile screenshot */
     .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
@@ -372,9 +372,9 @@
             </div>
       </div>
       <div class="project-grid">
-        <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener" style="position: relative;">
-          <img src="images/work-01.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          <img src="images/work-01-hover.png" alt="Bat Flower trivia post caption" loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s ease;">
+        <a class="project-grid-link" href="https://www.instagram.com/p/CQuWaavLb33/" target="_blank" rel="noopener">
+          <img src="images/work-01.png" alt="Bat Flower trivia post — Instagram @ SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-01-hover.png" alt="Bat Flower trivia post caption" loading="lazy" class="hover-img">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Chk3u_SDijd/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-02.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
