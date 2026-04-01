@@ -127,6 +127,9 @@
     .project-grid-link:hover img { transform: scale(1.04); }
     .project-grid-link .hover-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s ease; transform: none !important; }
     .project-grid-link:hover .hover-img { opacity: 1; transform: none !important; }
+    .play-icon { position: absolute; bottom: 0.6rem; right: 0.6rem; width: 2rem; height: 2rem; background: rgba(255,255,255,0.55); border-radius: 50%; display: flex; align-items: center; justify-content: center; pointer-events: none; transition: opacity 0.3s ease; }
+    .play-icon svg { width: 0.9rem; height: 0.9rem; fill: #2a2318; margin-left: 2px; }
+    .project-grid-link:hover .play-icon { opacity: 0; }
     /* Instagram profile screenshot */
     .project-desc-row { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
     .project-profile-img { width: 100%; display: block; border: 1px solid #c8c0ae; }
@@ -379,22 +382,25 @@
         <a class="project-grid-link" href="https://www.instagram.com/p/Chk3u_SDijd/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-02.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(1.3); transform-origin: right 30%;">
           <img src="images/work-02-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
+          <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CcGPQgtp826/?hl=en&img_index=1" target="_blank" rel="noopener">
           <img src="images/work-03.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
           <img src="images/work-03-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
         </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/CeEmW9vlS5r/?hl=en" target="_blank" rel="noopener">
-          <img src="images/work-04.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
-          <img src="images/work-04-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
-        </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/Ci0N9EjJzFF/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-05.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
           <img src="images/work-05-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
+          <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/CeEmW9vlS5r/?hl=en" target="_blank" rel="noopener">
+          <img src="images/work-04.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy">
+          <img src="images/work-04-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/CezZZv6jnNj/?hl=en" target="_blank" rel="noopener">
           <img src="images/work-06.png" alt="Instagram post — SF Conservatory of Flowers" loading="lazy" style="transform: scale(2); transform-origin: center center;">
           <img src="images/work-06-hover.jpg" alt="Instagram post caption" loading="lazy" class="hover-img">
+          <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
       </div>
       <div style="padding-top: 1.8rem; padding-left: 4.5rem;">
