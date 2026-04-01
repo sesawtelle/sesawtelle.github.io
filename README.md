@@ -398,7 +398,7 @@
               <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
             </ul>
           </div>
-          <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener" style="align-self: start; max-width: 75%;">
+          <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener" style="align-self: start; max-width: 85%; margin-top: 1.4rem;">
             <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" loading="lazy">
           </a>
         </div>
