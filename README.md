@@ -467,7 +467,7 @@
           </div>
         </div>
       </div>
-      <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
+      <div class="project-grid">
         <a class="project-grid-link" href="https://www.instagram.com/p/DVJtoNpFbdt/" target="_blank" rel="noopener">
           <img src="images/ggp-01.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="transform: scale(1.3); transform-origin: center 35%;">
         </a>
@@ -477,8 +477,14 @@
         <a class="project-grid-link" href="https://www.instagram.com/stories/highlights/18434294539112364/" target="_blank" rel="noopener">
           <img src="images/ggp-03.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: center 30%;">
         </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DWeb8zajKOp/" target="_blank" rel="noopener">
+          <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
+        </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
           <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
+        </a>
+        <a class="project-grid-link" href="https://www.instagram.com/p/DVXs45vjTk7/" target="_blank" rel="noopener">
+          <img src="images/ggp-06.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
       </div>
     </div>
@@ -498,7 +504,7 @@
           <p class="project-desc"><b>2019 – 2024 · Interpretation and Engagement Manager</b></p>
         </div>
       </div>
-      <div class="project-grid">
+      <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
         <a class="project-grid-link" href="images/sign-01.png" target="_blank" rel="noopener">
           <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
         </a>
@@ -508,14 +514,8 @@
         <a class="project-grid-link" href="images/sign-03.png" target="_blank" rel="noopener">
           <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
         </a>
-        <a class="project-grid-link" href="images/sign-04.png" target="_blank" rel="noopener">
-          <img src="images/sign-04.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
-        </a>
         <a class="project-grid-link" href="images/sign-05b.jpg" target="_blank" rel="noopener">
           <img src="images/sign-05b.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
-        </a>
-        <a class="project-grid-link" href="images/sign-06.png" target="_blank" rel="noopener">
-          <img src="images/sign-06.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(2.2); transform-origin: right 70%;">
         </a>
       </div>
     </div>
