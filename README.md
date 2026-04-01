@@ -540,7 +540,7 @@
           <div class="sign-caption"><p><strong>Bird ID For Everybody</strong><br><em>California Academy of Sciences</em><br><br>Interactive activity teaching people how to use apps and field guides for bird identification.</p></div>
         </div>
         <div class="project-grid-link">
-          <img src="images/prog-02.jpg" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1.8); transform-origin: left center;">
+          <img src="images/prog-02.jpg" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1.8); transform-origin: left center; filter: brightness(0.85);">
           <div class="sign-caption"><p><strong>Night Bloom</strong><br><em>Conservatory of Flowers</em><br><br>Hands-on carnivorous plant exploration for evening Night Bloom event.</p></div>
         </div>
         <div class="project-grid-link">
@@ -557,7 +557,7 @@
         </div>
         <div class="project-grid-link">
           <img src="images/prog-06.jpg" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
-          <div class="sign-caption"><p><strong>Interpretive Program Presentations</strong><br><em>Alcatraz Island</em><br><br>Designed and presented programs on Alcatraz history and nature, presented to crowds of up to 150 people.</p></div>
+          <div class="sign-caption"><p><strong>Interpretive Program Presentations</strong><br><em>National Park Service - Golden Gate National Recreation Area</em><br><br>Designed and presented programs on Alcatraz history and nature, presented to crowds of up to 150 people.</p></div>
         </div>
       </div>
     </div>
