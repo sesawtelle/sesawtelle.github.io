@@ -294,8 +294,8 @@
           <div class="project-desc">
               <b>January 2021 – December 2022 · Interim Communications Manager</b>
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-                <li>Took dazzling photos and videos of tropical plants, shared alongside their botanical backstories on Instagram, YouTube, and Facebook.</li>
-                <li>Filmed reels that took viewers behind-the-scenes to dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
+                <li>Managed the Conservatory of Flowers Instagram, YouTube, and Facebook. Posted dazzling photos of tropical plants alongside their botanical backstories.</li>
+                <li>Filmed and edited videos that invited viewers to dive underwater with Giant Water Lilies, and witness the ephemeral night bloom of a cactus flower.</li>
                 <li>Used Hootsuite to create content calendar, schedule posts, and manage posting across multiple platforms.</li>
                 <li>Coordinated with events, retail, horticulture and operations teams to share news from across the organization with more than 60,000 followers.</li>
               </ul>
