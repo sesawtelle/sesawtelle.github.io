@@ -237,7 +237,7 @@
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">About Me</div>
-        <div class="sidebar-val">Informal science educator who crafts stories that spark awe and appreciation for the natural world. I work with conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. Let me help you by creating compelling social media posts, inspiring interpretive signs, or lively educational programs. I also have experience in volunteer coordination, project management, and public speaking.</div>
+        <div class="sidebar-val">Informal science educator who crafts stories that spark awe and appreciation for the natural world. I work with conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. Let me help your organization connect with diverse audiences through compelling social media posts, inspiring interpretive signs, or public outreach and education.</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Available For</div>
