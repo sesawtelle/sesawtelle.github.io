@@ -45,8 +45,9 @@
     @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
     /* full-bleed top line to match other pages */
     .full-width-top-line { width: 100%; border-top: 2px solid #2a2318; }
-    /* interpretive signs: show top of sign images (shift view upward) */
-    .signs .grid-item img { object-position: center 12%; }
+  /* interpretive signs: make tiles a bit taller and show full text */
+  .signs .grid-item { aspect-ratio: 3 / 4; }
+  .signs .grid-item img { object-fit: contain; object-position: center top; background: #fff; }
     /* overlay for enlarged sign preview */
     #img-overlay { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 1200; }
     #img-overlay.open { opacity: 1; pointer-events: auto; }
