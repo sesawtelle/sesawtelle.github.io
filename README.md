@@ -409,10 +409,9 @@
       <div style="padding-top: 1.8rem; padding-left: 4.5rem;">
         <div class="project-layout" style="gap: 2rem; align-items: start;">
           <div>
-            <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.3rem;">YouTube Live — Corpse Flower Bloom</h3>
+            <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.3rem;">Corpse Flower Campaign</h3>
             <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-              <li>Produced and streamed a series of YouTube Live educational programs that attracted over 5,000 viewers to learn about Corpse Flower natural history and conservation.</li>
-              <li>Moderated online livestream of Corpse Flower bloom that drew 60,000+ viewers.</li>
+              <li>2020 &amp; 2022: managed campaigns across Instagram, Facebook and YouTube to build excitement before and during blooms of the famous Corpse Flower.</li>
               <li><a href="corpse-flower.html" target="_blank" rel="noopener" style="color: #4a6640; text-decoration: none;"><em>Click here</em></a> to see more highlights from the Corpse Flower Social Media campaign.</li>
             </ul>
           </div>
@@ -510,7 +509,7 @@
           <p class="project-desc"><b>2019 – 2024 · Interpretation and Engagement Manager</b></p>
         </div>
       </div>
-      <div class="project-grid" style="grid-template-columns: repeat(4, 1fr);">
+      <div class="project-grid">
         <a class="project-grid-link" href="images/lowlandssign.pdf" target="_blank" rel="noopener">
           <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
           <div class="sign-caption"><p>Developed large interpretive signs about rainforest plant adaptations and conservation. Installed in the Lowland Tropics Gallery at Conservatory of Flowers. Click to see full signs.</p></div>
@@ -522,10 +521,6 @@
         <a class="project-grid-link" href="chalk-signs.html" target="_blank" rel="noopener">
           <img src="images/sign-03.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
           <div class="sign-caption"><p>Ephemeral chalkboard signs at the Conservatory of Flowers. Click to see more examples.</p></div>
-        </a>
-        <a class="project-grid-link" href="images/sign-05b.jpg" target="_blank" rel="noopener">
-          <img src="images/sign-05b.jpg" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy">
-          <div class="sign-caption"><p>Entryway sign for the Conservatory of Flowers, featuring swappable tags of current blooms and plant highlights.</p></div>
         </a>
       </div>
     </div>
