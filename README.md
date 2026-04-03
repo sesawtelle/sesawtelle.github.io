@@ -410,12 +410,12 @@
         <div class="project-layout" style="gap: 2rem; align-items: start;">
           <div>
             <h3 class="project-title" style="font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 300; font-style: italic; color: #2a2318; margin-bottom: 0.3rem;">Corpse Flower Campaign</h3>
-            <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
-              <li>2020 &amp; 2022: managed campaigns across Instagram, Facebook and YouTube to build excitement before and during blooms of the famous Corpse Flower.</li>
+            <ul class="project-desc" style="padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.8rem;">
+              <li>2020 &amp; 2022: managed campaigns across Instagram, Facebook and YouTube to build engagement before and during blooms of the famous <em>Amorphophallus titanum</em> or Corpse Flower.</li>
               <li><a href="corpse-flower.html" target="_blank" rel="noopener" style="color: #4a6640; text-decoration: none;"><em>Click here</em></a> to see more highlights from the Corpse Flower Social Media campaign.</li>
             </ul>
           </div>
-          <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener" style="align-self: start; max-width: 85%; margin-top: 1.4rem;">
+          <a class="project-img-link" href="https://www.youtube.com/watch?v=ACjMx4KxkaI" target="_blank" rel="noopener" style="align-self: start; justify-self: end; max-width: 85%; margin-top: 1.4rem;">
             <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" loading="lazy">
           </a>
         </div>
