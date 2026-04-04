@@ -534,11 +534,22 @@
   </section>
 
   <div class="section-bar reveal">
-    <span class="section-bar-title">Education Programs &amp; Outreach</span>
+    <span class="section-bar-title">Educational Programs &amp; Outreach</span>
   </div>
 
   <section id="storytelling" class="reveal">
     <div class="project">
+      <div class="project-top">
+        <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
+        <div>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1.4;">Conservatory of Flowers</h2>
+          <p class="project-desc"><b>2019 – 2022 · Engagement Manager</b></p>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: 0.8rem; margin-bottom: 0.5rem; line-height: 1.4;">California Academy of Sciences</h2>
+          <p class="project-desc"><b>2015 – 2019 · Public Programs Lead</b></p>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: 0.8rem; margin-bottom: 0.5rem; line-height: 1.4;">National Park Service</h2>
+          <p class="project-desc"><b>2013 – 2015 · Interpretive Park Ranger</b></p>
+        </div>
+      </div>
       <div class="project-grid">
         <div class="project-grid-link">
           <img src="images/prog-01.jpg" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1); transform-origin: right center; filter: brightness(1.25);">
