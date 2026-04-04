@@ -247,7 +247,7 @@
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">About Me</div>
-        <div class="sidebar-val">Informal science educator who crafts stories that spark awe and appreciation for the natural world. I work with conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. Let me help your organization connect with diverse audiences through compelling social media posts, inspiring interpretive signs, or public outreach and education.</div>
+        <div class="sidebar-val">Informal science educator who crafts stories that spark awe and appreciation for the natural world. I work with conservation organizations, parks, museums, and cultural institutions throughout the Bay Area and beyond. I can help your cause connect with diverse audiences through compelling social media posts, inspiring interpretive signs, or engaging educational programs.</div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Resume</div>
@@ -440,7 +440,7 @@
               <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem;">
                 <li>Created and posted Instagram reels, stories and posts in support of the release of <em>Golden Gate Park: A Local's Guide</em> and related book events.</li>
                 <li>Collaborated to develop brand style for a client with a preference for bold, eye-popping and text-intensive posts.</li>
-                <li>Integrated @secretgoldengatepark Instagram with Canva, Metricool and Linktree.</li>
+                <li>Integrated @secretgoldengatepark Instagram with Canva and Linktree.</li>
               </ul>
             </div>
             <div class="social-cards">
@@ -468,6 +468,7 @@
                   </div>
                 </div>
                 <div class="ig-stats">
+                  <div class="ig-stat"><span class="ig-stat-num">23</span><span class="ig-stat-label">Posts</span></div>
                   <div class="ig-stat" style="border-right: none;"><span class="ig-stat-num">227</span><span class="ig-stat-label">Followers</span></div>
                 </div>
               </div>
@@ -511,7 +512,7 @@
       <div class="project-top">
         <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
         <div>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Gardens of Golden Gate Park &amp; Conservatory of Flowers</h2>
+          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1;">Gardens of Golden Gate Park &amp; Conservatory of Flowers</h2>
           <p class="project-desc"><b>2019 – 2024 · Interpretation and Engagement Manager</b></p>
         </div>
       </div>
@@ -563,6 +564,13 @@
           <img src="images/prog-06.jpg" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
           <div class="sign-caption"><p><strong>Interpretive Program Presentations</strong><br><em>National Park Service - Golden Gate National Recreation Area</em><br><br>Designed and presented programs on Alcatraz history and nature, presented to crowds of up to 150 people.</p></div>
         </div>
+      </div>
+      <div style="margin-top:1rem;">
+        <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem; color: #1a2e14;">
+          <li><strong>Conservatory of Flowers</strong>, Engagement Manager - 2019 - 2022</li>
+          <li><strong>California Academy of Sciences</strong>, Public Programs Lead - 2015 - 2019</li>
+          <li><strong>National Park Service</strong>, Interpretive Park Ranger - 2013 - 2015</li>
+        </ul>
       </div>
     </div>
   </section>
