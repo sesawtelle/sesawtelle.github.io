@@ -44,9 +44,9 @@
     @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
     /* full-bleed top line to match other pages */
     .full-width-top-line { width: 100%; border-top: 2px solid #2a2318; }
-  /* interpretive signs: make tiles a bit taller and show full text */
-  .signs .grid-item { aspect-ratio: 3 / 4; }
-  .signs .grid-item img { object-fit: contain; object-position: center top; background: #fff; }
+  /* interpretive signs: natural image dimensions, no white bars */
+  .signs .grid-item { aspect-ratio: auto; height: auto; cursor: pointer; }
+  .signs .grid-item img { object-fit: unset; height: auto; }
   /* play icon for video thumbnails */
   .play-icon { position: absolute; bottom: 0.6rem; right: 0.6rem; width: 2rem; height: 2rem; background: rgba(255,255,255,0.55); border-radius: 50%; display: flex; align-items: center; justify-content: center; pointer-events: none; transition: opacity 0.3s ease; }
   .play-icon svg { width: 0.9rem; height: 0.9rem; fill: #2a2318; margin-left: 2px; }
@@ -89,20 +89,18 @@
     </div>
     <h2 style="font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 600; color: #2a2318; margin-top: 3.5rem; margin-bottom: 1.2rem; padding-top: 2.5rem; border-top: 2px solid #2a2318;">YouTube Live</h2>
     <p style="font-size:14px; color:#7a6e5a; line-height:1.85; margin-bottom:1rem;">“YouTube Live” streams were an excellent tool for connecting quarantined online audiences in 2020. Over 5,000 viewers tuned in to see a live pollination, discussions of Corpse Flower conservation, and featured interviews with Conservatory horticulturists, education staff, and volunteers.</p>
-    <div style="overflow: hidden; max-width: 640px; margin-bottom: 2rem;">
-      <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" style="width:100%; height:auto; display:block;">
-    </div>
-    <h2 style="font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 600; color: #2a2318; margin-top: 3.5rem; margin-bottom: 1.2rem; padding-top: 2.5rem; border-top: 2px solid #2a2318;">Interpretation Station</h2>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3.5rem;">
-      <ul style="font-size: 14px; color: #7a6e5a; line-height: 1.85; padding-left: 1.2em;">
-        <li>Trained volunteers to facilitate an interactive interpretation station with touchable parts of an <em>Amorphophallus titanum</em> plant.</li>
-      </ul>
-      <div style="overflow: hidden; aspect-ratio: 1 / 1;">
-        <img src="images/corpse4.jpg" alt="Corpse Flower interpretation station" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem;">
+      <div style="overflow: hidden;">
+        <img src="https://images.squarespace-cdn.com/content/v1/68cb081869dddd79cbb02fc0/cec56368-a745-47da-be9a-7c0e766388af/Screenshot+2025-09-18+at+9.13.02%E2%80%AFAM.png" alt="YouTube Live — Corpse Flower Bloom at SF Conservatory of Flowers" style="width:100%; height:auto; display:block;">
       </div>
+      <a href="https://www.youtube.com/watch?v=sFlgpqLdt94&t=656s" target="_blank" rel="noopener" style="overflow: hidden; display: block;">
+        <img src="images/ytl2.png" alt="YouTube Live — Corpse Flower" style="width:100%; height:auto; display:block;">
+      </a>
+      <a href="https://www.youtube.com/watch?v=sFlgpqLdt94&t=656s" target="_blank" rel="noopener" style="overflow: hidden; display: block;">
+        <img src="images/ytl3.png" alt="YouTube Live — Corpse Flower" style="width:100%; height:auto; display:block;">
+      </a>
     </div>
-
-    <h2 style="font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 600; color: #2a2318; margin-bottom: 1.2rem; padding-top: 2.5rem; border-top: 2px solid #2a2318;">Interpretive Signs</h2>
+    <h2 style="font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 600; color: #2a2318; margin-top: 3.5rem; margin-bottom: 1.2rem; padding-top: 2.5rem; border-top: 2px solid #2a2318;">Interpretive Signs</h2>
   <p style="font-size:14px; color:#7a6e5a; line-height:1.85; margin-bottom:1rem;">I created interpretive signs that offered opportunities to learn more about this species' adaptations, life cycle, and conservation. As visitors waited in line - sometimes for hours! - to view the corpse flower, these signs offered an opportunity to learn more about this strange plant.</p>
   <div class="grid signs">
       <div class="grid-item"><img src="images/cfs-1.png" alt="Corpse Flower interpretive sign" loading="lazy"></div>
@@ -138,10 +136,6 @@
         }
 
         signImgs.forEach(img => {
-          // shift view already handled by CSS object-position for .signs
-          img.addEventListener('mouseenter', () => show(img.src, img.alt));
-          img.addEventListener('mouseleave', () => hide());
-          // for touch devices: open on click
           img.addEventListener('click', (e) => { e.preventDefault(); show(img.src, img.alt); });
         });
 
