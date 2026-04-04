@@ -251,7 +251,7 @@
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Resume</div>
-        <div class="sidebar-val"><a href="https://docs.google.com/document/d/1NDq8RAo2SygD2VJaw1R4G4Fb6n5Qukbo/edit?usp=sharing&ouid=107795271729741704408&rtpof=true&sd=true" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Click here to view my Resume</a></div>
+        <div class="sidebar-val"><a href="https://docs.google.com/document/d/1NDq8RAo2SygD2VJaw1R4G4Fb6n5Qukbo/edit?usp=sharing&ouid=107795271729741704408&rtpof=true&sd=true" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Click here to view</a></div>
       </div>
       <div class="sidebar-item">
         <div class="sidebar-key">Available For</div>

@@ -48,6 +48,10 @@
   /* interpretive signs: make tiles a bit taller and show full text */
   .signs .grid-item { aspect-ratio: 3 / 4; }
   .signs .grid-item img { object-fit: contain; object-position: center top; background: #fff; }
+  /* play icon for video thumbnails */
+  .play-icon { position: absolute; bottom: 0.6rem; right: 0.6rem; width: 2rem; height: 2rem; background: rgba(255,255,255,0.55); border-radius: 50%; display: flex; align-items: center; justify-content: center; pointer-events: none; transition: opacity 0.3s ease; }
+  .play-icon svg { width: 0.9rem; height: 0.9rem; fill: #2a2318; margin-left: 2px; }
+  .grid-item:hover .play-icon { opacity: 0; }
     /* overlay for enlarged sign preview */
     #img-overlay { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 1200; }
     #img-overlay.open { opacity: 1; pointer-events: auto; }
@@ -76,6 +80,7 @@
       <div class="grid-item">
         <img src="images/cf-2.png" alt="Corpse Flower campaign post" loading="lazy">
         <img src="images/cf-2t.png" alt="Corpse Flower campaign caption" loading="lazy" class="hover-img">
+        <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
       </div>
       <div class="grid-item">
         <img src="images/cf-3.png" alt="Corpse Flower campaign post" loading="lazy">
