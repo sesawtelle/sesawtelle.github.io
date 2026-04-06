@@ -491,7 +491,7 @@
           <img src="images/ggp-04.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: bottom;">
           <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></div>
         </a>
-        <a class="project-grid-link" href="https://www.instagram.com/p/DVFtcj7gGx7/?img_index=1" target="_blank" rel="noopener">
+        <a class="project-grid-link" href="https://www.instagram.com/p/DWy-4_IkTZn/" target="_blank" rel="noopener">
           <img src="images/ggp-05.png" alt="Instagram post — Secrets of Golden Gate Park" loading="lazy" style="object-position: top;">
         </a>
         <a class="project-grid-link" href="https://www.instagram.com/p/DVXs45vjTk7/" target="_blank" rel="noopener">
@@ -541,13 +541,19 @@
     <div class="project">
       <div class="project-top">
         <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
-        <div>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: -0.2rem; margin-bottom: 0.5rem; line-height: 1.4;">Conservatory of Flowers</h2>
-          <p class="project-desc"><b>2019 – 2022 · Engagement Manager</b></p>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: 0.8rem; margin-bottom: 0.5rem; line-height: 1.4;">California Academy of Sciences</h2>
-          <p class="project-desc"><b>2015 – 2019 · Public Programs Lead</b></p>
-          <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-top: 0.8rem; margin-bottom: 0.5rem; line-height: 1.4;">National Park Service</h2>
-          <p class="project-desc"><b>2013 – 2015 · Interpretive Park Ranger</b></p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem 1.5rem;">
+          <div>
+            <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-bottom: 0.3rem; line-height: 1.4;">Conservatory of Flowers</h2>
+            <p class="project-desc"><b>2019 – 2022 · Engagement Manager</b></p>
+          </div>
+          <div>
+            <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-bottom: 0.3rem; line-height: 1.4;">California Academy of Sciences</h2>
+            <p class="project-desc"><b>2015 – 2019 · Public Programs Lead</b></p>
+          </div>
+          <div>
+            <h2 style="font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: #2a2318; margin-bottom: 0.3rem; line-height: 1.4;">National Park Service</h2>
+            <p class="project-desc"><b>2013 – 2015 · Interpretive Park Ranger</b></p>
+          </div>
         </div>
       </div>
       <div class="project-grid">
@@ -575,13 +581,6 @@
           <img src="images/prog-06.jpg" alt="Science storytelling and outreach" loading="lazy" style="object-position: center top;">
           <div class="sign-caption"><p><strong>Interpretive Program Presentations</strong><br><em>National Park Service - Golden Gate National Recreation Area</em><br><br>Designed and presented programs on Alcatraz history and nature, presented to crowds of up to 150 people.</p></div>
         </div>
-      </div>
-      <div style="margin-top:1rem;">
-        <ul style="margin-top: 0.7rem; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.5rem; color: #1a2e14;">
-          <li><strong>Conservatory of Flowers</strong>, Engagement Manager - 2019 - 2022</li>
-          <li><strong>California Academy of Sciences</strong>, Public Programs Lead - 2015 - 2019</li>
-          <li><strong>National Park Service</strong>, Interpretive Park Ranger - 2013 - 2015</li>
-        </ul>
       </div>
     </div>
   </section>
