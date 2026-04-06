@@ -516,6 +516,7 @@
           <p class="project-desc"><b>2019 – 2024 · Interpretation and Engagement Manager</b></p>
         </div>
       </div>
+      <p style="font-size: 12px; color: #7a6e5a; font-style: italic; margin-bottom: 0.6rem;">hover over the images to learn more</p>
       <div class="project-grid">
         <a class="project-grid-link" href="images/lowlandssign.pdf" target="_blank" rel="noopener">
           <img src="images/sign-01.png" alt="Interpretive sign — Gardens of Golden Gate Park / Conservatory of Flowers" loading="lazy" style="transform: scale(1.4); transform-origin: left 28%;">
@@ -541,7 +542,7 @@
     <div class="project">
       <div class="project-top">
         <span class="project-index"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#a8c898" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10"/><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z"/></svg></span>
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem 1.5rem; margin-top: -0.2rem;">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem 1.5rem; margin-top: -0.5rem;">
           <div>
             <h2 style="font-family: 'Fraunces', serif; font-size: 0.9rem; font-weight: 600; color: #2a2318; margin-bottom: 0.3rem; line-height: 1.4;">Conservatory of Flowers</h2>
             <p class="project-desc"><b>2019 – 2022 · Engagement Manager</b></p>
@@ -556,6 +557,7 @@
           </div>
         </div>
       </div>
+      <p style="font-size: 12px; color: #7a6e5a; font-style: italic; margin-bottom: 0.6rem;">hover over the images to learn more</p>
       <div class="project-grid">
         <div class="project-grid-link">
           <img src="images/prog-01.jpg" alt="Science storytelling and outreach" loading="lazy" style="transform: scale(1); transform-origin: right center; filter: brightness(1.25);">
